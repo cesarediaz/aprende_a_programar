@@ -2345,16 +2345,15 @@ class LearnToProgramTutorial
       acostumbrarte a esto. Tienes que realmente solo comenzar <em>
       pensando</em> que el contador comienza en cero, y dejas de usar
       palabras como "primero" y "segundo"
+      Si tu vas a un menu de cinco platos, no hablas acerca del "primer"
+      curso, hablas acerca del curso cero(y en tu cabeza, estas pensando
+      #{code 'course[0]'}). Tu tienes cinco dedos en tu mano derecha,
+      y sus números son 0, 1, 2, 3 y 4. Mi espoza y yo somos malabaristas.
+      Cuando hacemos malabares con seis objetos, nosotros estamos con 
+      los objetos 0-5. Esperamos en los próximos meses poder manejarnos
+      con el objeto 6(y por lo tanto trataremos de manejarnos con 7 objetos) 
 
-      If you go out to a five-course meal, don't talk about
-      the "first" course; talk about course zero
-      (and in your head, be thinking #{code 'course[0]'}).
-      You have five fingers on your right hand, and their
-      numbers are 0, 1, 2, 3, and 4.  My wife and I are
-      jugglers.  When we juggle six clubs, we are juggling
-      clubs 0-5.  Hopefully in the next few months, we'll
-      be able to juggle club 6 (and thus be juggling seven
-      clubs between us).  You'll know you've got it when you
+       You'll know you've got it when you
       start using the word "zeroth".  :-) Yes, it's a real
       word; ask any programmer or mathematician.
       END_PARAGRAPH

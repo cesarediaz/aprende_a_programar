@@ -2333,17 +2333,19 @@ class LearnToProgramTutorial
       puts names[0]
       puts names[1]
       puts names[2]
-      puts names[3]  #  This is out of range.
+      puts names[3]  #  Este esta fuera del rango.
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      So, we see that #{code 'puts names'} prints each name in
-      the array #{code 'names'}.  Then we use #{code 'puts names[0]'}
-      to print out the "first" name in the array, and
-      #{code 'puts names[1]'} to print the "second"... I'm sure this seems
-      confusing, but you <em>do</em> get used to it.  You just have to really
-      start <em>thinking</em> that counting begins at zero, and
-      stop using words like "first" and "second".
+      Entonces, nosotros vemos que #{code 'puts names'} imprime
+      cada nombre en el array  #{code 'names'}. Luego usamos
+      #{code 'puts names[0]'} para imprimir el "primer" nombre en 
+      el array, y #{code 'puts names[1]'} para imprimir el "segundo"
+      ... Estoy seguro que esto parece confuso, pero tu <em>puedes</em> 
+      acostumbrarte a esto. Tienes que realmente solo comenzar <em>
+      pensando</em> que el contador comienza en cero, y dejas de usar
+      palabras como "primero" y "segundo"
+
       If you go out to a five-course meal, don't talk about
       the "first" course; talk about course zero
       (and in your head, be thinking #{code 'course[0]'}).

@@ -2280,10 +2280,11 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      You know, I don't think we can do it.  We need a way to store
-      an unknown amount of words, and how to keep track of them all
-      together, so they don't get mixed up with other variables.  We
-      need to put them in some sort of a list.  We need <dfn>arrays</dfn>.
+      Usted sabe, no pienso que podemos hacer esto. Necesitamos una 
+      forma de almacenar una cantidad desconocido de palabras, y como
+      obtener todas ellas juntas, entonces no se mezclas con otras 
+      variables. Necesitamos colocarlas en un tipo de lista. Lo que
+      necesitamos son <dfn>arrays</dfn>. 
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

@@ -2288,9 +2288,9 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Un array es solo una lista en su computadora. Cada pieza en 
+      Un array es solo una lista en su computadora. Cada  posicion en 
       la lista actua como una variable: puedes ver que objeto en 
-      particular apunta a cada pieza, y puedes hacer que este apunte
+      particular apunta a cada posicion, y puedes hacer que este apunte
       a un objeto diferente. Vamos a echar un vistazo a algunos arrays:
       END_PARAGRAPH
     end
@@ -2317,11 +2317,13 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      To help us find a particular object in an array, each
-      slot is given an index number.  Programmers (and, incidentally,
-      most mathematicians) start counting from zero, though,
-      so the first slot in the array is slot zero.  Here's
-      how we would reference the objects in an array:
+      Para ayudarnos a encontrar un objeto particular en un array,
+      para cada posicion es dado un indice numerico. Programadores
+      (and, por cierto, la mayoría de los matemáticos) comienzan 
+      contando desde cero, por lo que la primera posicion del array
+      es cero.  Aquí es como nosotros deberíamos referenciar los 
+      objetos en un array:
+
       END_PARAGRAPH
     end
     prog do <<-END_CODE

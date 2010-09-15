@@ -2288,10 +2288,10 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      An array is just a list in your computer.  Every slot in
-      the list acts like a variable:  you can see what object
-      a particular slot points to, and you can make it point to a
-      different object.  Let's take a look at some arrays:
+      Un array es solo una lista en su computadora. Cada pieza en 
+      la lista actua como una variable: puedes ver que objeto en 
+      particular apunta a cada pieza, y puedes hacer que este apunte
+      a un objeto diferente. Vamos a echar un vistazo a algunos arrays:
       END_PARAGRAPH
     end
     prog false do <<-END_CODE

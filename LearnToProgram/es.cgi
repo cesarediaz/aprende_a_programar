@@ -2280,9 +2280,9 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Usted sabe, no pienso que podemos hacer esto. Necesitamos una 
-      forma de almacenar una cantidad desconocido de palabras, y como
-      obtener todas ellas juntas, entonces no se mezclas con otras 
+      Usted sabe, no pienso que podamos hacer esto. Necesitamos una 
+      forma de almacenar una cantidad desconocida de palabras, y como
+      obtener todas ellas juntas, entonces no se confundan con otras 
       variables. Necesitamos colocarlas en un tipo de lista. Lo que
       necesitamos son <dfn>arrays</dfn>. 
       END_PARAGRAPH

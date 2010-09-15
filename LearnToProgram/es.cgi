@@ -2297,10 +2297,10 @@ class LearnToProgramTutorial
     prog false do <<-END_CODE
       []
       [5]
-      ['Hello', 'Goodbye']
+      ['Hola', 'Adios']
       
-      flavor = 'vanilla'             #  This is not an array, of course...
-      [89.9, flavor, [true, false]]  #  ...but this is.
+      flavor = 'vanilla'             #  Esto no es un array, porsupuesto...
+      [89.9, savor, [true, false]]  #  ...pero esto si lo es.
       END_CODE
     end
     para do <<-END_PARAGRAPH

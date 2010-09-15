@@ -2300,20 +2300,20 @@ class LearnToProgramTutorial
       ['Hola', 'Adios']
       
       flavor = 'vanilla'             #  Esto no es un array, porsupuesto...
-      [89.9, savor, [true, false]]  #  ...pero esto si lo es.
+      [89.9, sabor, [true, false]]  #  ...pero esto si lo es.
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      So first we have an empty array, then an array holding
-      a single number, then an array holding two strings.
-      Next, we have a simple assignment; then an
-      array holding three objects, the last
-      of which is the array #{code '[true, false]'}.  Remember,
-      variables aren't objects, so our last array is really
-      pointing to float, a <em>string</em>, and an array.  Even if we
-      were to set #{code 'flavor'} to
-      point to something else, that wouldn't change the
-      array.
+      Entonces primero tenemos un array vacio, luego un array
+      conteniendo un simple numero, luego un array que contiene
+      dos strings. Siguiendo, tenemos una simple asignacion, luego
+      un array conteniendo tres objetos, de los cuales el último 
+      es el array #{code '[true, false]'}. Recuerda, variables
+      no son objetos, entonces nuestro ultimo array es en realidad
+      un punto flotante, un <em>string</em>, y un array. Aun asi si
+      nosotros hubieramos seteado #{code 'sabor'} a punto o algo mas, 
+      esto no hubiera cambiado el array.
+
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

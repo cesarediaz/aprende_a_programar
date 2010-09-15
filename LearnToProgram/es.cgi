@@ -2266,10 +2266,11 @@ class LearnToProgramTutorial
   
   def generateArrays
     para do <<-END_PARAGRAPH
-      Let's write a program which asks us to type in as many words
-      as we want (one word per line, continuing until we just press
-      <kbd>Enter</kbd> on an empty line), and which then repeats
-      the words back to us in alphabetical order.  OK?
+      Vamos a escribir un programa el cual nos pida  tipear tantas
+      palabras como nosotros querramos(una palabra por linea), 
+      continuando hasta que oprimamos <kbd>Enter</kbd> en una linea
+      vacia), el cual luego nos devolvera las palabras en orden 
+      alfabetico. OK?
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

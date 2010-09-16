@@ -2496,17 +2496,13 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Now let's take a look at #{code 'push'}, #{code 'pop'},
-      and #{code 'last'}.  The methods #{code 'push'} and #{code 'pop'}
-      are sort of opposites,
-      like #{code '+'} and #{code '-'} are.  #{code 'push'} adds
-      an object to the end of your array, and #{code 'pop'}
-      removes the last object from the array (and tell you
-      what it was).  #{code 'last'} is similar to #{code 'pop'}
-      in that it tells you what's at the end of the array,
-      except that it leaves the array alone.
-      Again, #{code 'push'} and #{code 'pop'} <em>actually
-      change the array</em>:
+      Ahora vamos a echar un vistazo a #{code 'push'}, #{code 'pop'}, y  #{code 'last'}.  
+      Los metodos #{code 'push'} y #{code 'pop'} son una suerte de metodos opuestos como
+      lo son #{code '+'} y #{code '-'}. #{code 'push'} agrega un objeto al final del array,
+      y #{code 'pop'} quita el último objeto desde el array(y te dice que objeto es). 
+      #{code 'last'} es similar a #{code 'pop'} en el que este te indica que hay al final 
+      del array, excepto que este deja el array. De nuevo, #{code 'push'} y #{code 'pop'} <em>
+      en realidad cambian el array</em>:
       END_PARAGRAPH
     end
     prog do <<-END_CODE

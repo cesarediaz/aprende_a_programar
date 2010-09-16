@@ -2371,9 +2371,9 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      If all this funny numbering of array slots is getting to
-      you, fear not!  Often, we can avoid them completely by
-      using various array methods, like this one:
+      Si todo este divertido numerado de posiciones esta molestandote,
+      no te preocupes! También, podemos evitar esto completamente usando
+      varios metodos array, como el que sigue:
       END_PARAGRAPH
     end
     h2 {"The Method #{code 'each'}"}

@@ -2491,9 +2491,8 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Also, did you notice that I left out the empty strings when
-      I wanted to #{code 'puts'} a blank line?  It does the same
-      thing.
+      También, te habras dado cuenta que deje fuera el string vacio cuando quise 
+      hacer #{code 'puts'} de una linea en blanco? Esto hace lo mismo.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

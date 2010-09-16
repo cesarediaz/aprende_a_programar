@@ -1354,6 +1354,10 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
+      Esto no es muy lindo, por lo que no vamos a escribir siempre como ahora.
+      ; sin embargo, es importante para entender que sucede <em>realmente</em>.
+      (En mi pc, que tambien 
+
       It isn't very pretty, so we won't ever write
       it like that; however, it's important to
       understand what is <em>really</em> happening.

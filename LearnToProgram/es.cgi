@@ -1327,16 +1327,14 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      So, did you take the quiz?  Good.  Well, I'm
-      sure you remembered the methods
-      #{code 'puts'}, #{code 'gets'}, and #{code 'chomp'},
-      since we just covered those.
-      You probably also got our conversion methods,
-      #{code 'to_i'}, #{code 'to_f'},
-      and #{code 'to_s'}.  However, did you get
-      the other four?  Why, it's none other
-      than our old arithmetic buddies #{code '+'},
-      #{code '-'}, #{code '*'}, and #{code '/'}!
+      Entonces, has hecho la prueba? Bien. Biemo, estoy seguro 
+      recordaras los metodos #{code 'puts'}, #{code 'gets'}, y
+      #{code 'chomp'}, dado que ya hablamos sobre ellos. 
+      Probablemente tambien recuerdas los metodos de conversión
+      #{code 'to_i'}, #{code 'to_f'}, y #{code 'to_s'}. Sin embargo, 
+      has visto los otros cuatro? Porque, estos no son otros que
+      nuestros viejos amigos para la aritmentica #{code '+'},
+      #{code '-'}, #{code '*'}, y #{code '/'}!
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

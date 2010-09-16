@@ -2539,9 +2539,8 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      So far we have learned quite a number of different methods.
-      Now it's time to learn how to
-      #{makeLink 'make our own', :generateDefMethod}.
+	  Hemos aprendido un numero de diferentes metodos.
+      Ahora es tiempo de aprender como #{makeLink 'hacerlo por nosotros mismos', :generateDefMethod}.
       END_PARAGRAPH
     end
   end

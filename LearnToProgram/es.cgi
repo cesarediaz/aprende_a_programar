@@ -2533,12 +2533,9 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      &bull; Rewrite your Table of Contents program (from the chapter
-      on #{makeLink 'methods', :generateMethods}).  Start the program
-      with an array holding all of the information for your Table
-      of Contents (chapter names, page numbers, etc.).  Then print
-      out the information from the array in a beautifully formatted
-      Table of Contents.
+      &bull; Reescribe tu programa Tabla de contenidos (desde el capítulo sobre #{makeLink 'methods', :generateMethods}).
+      Comienza el programa con un array conteniendo toda la informacion de tu Tabla de Contenidos(capitulo nombres, 
+      capitulo numeros, etc.). Entonces imprime la información desde el array en una bien formada Tabla de Contenidos.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

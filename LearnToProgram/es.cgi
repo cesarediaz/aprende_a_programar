@@ -1307,14 +1307,11 @@ class LearnToProgramTutorial
   
   def generateMethods
     para do <<-END_PARAGRAPH
-      So far we've seen a number of different methods,
-      #{code 'puts'} and #{code 'gets'}
-      and so on (<em><strong>Pop Quiz:</strong>  List all
-      of the methods we have seen so far!
-      There are ten of them; the answer is below.</em>),
-      but we haven't really talked about what methods are.
-      We know what they do, but
-      we don't know what they are.
+      Hemos visto un número de diferentes metodos, #{code 'puts'} y  #{code 'gets'}
+      , etcétera (<em><strong>Pop Quiz:</strong> Listar todos los metodos que hemos 
+      visto hasta ahora! Hay diéz de ellos, la respuesta esta abajo.</em>), pero no hemos
+      realmente hablado sobre que hacen los metodos.
+      Sabemos que hacen, pero no lo que son.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

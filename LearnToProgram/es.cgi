@@ -2444,22 +2444,17 @@ class LearnToProgramTutorial
       end
       END_CODE
     end
-    h2 {'More Array Methods'}
+    h2 {'Mas métodos Array'}
     para do <<-END_PARAGRAPH
-      So we've learned #{code 'each'},
-      but there are many other array methods... almost as
-      many as there are string methods!  In fact, some of
-      them (like #{code 'length'}, #{code 'reverse'},
-      #{code '+'}, and #{code '*'})
-      work just like they do for strings, except that they
-      operate on the slots of the array rather than the
-      letters of the string.  Others, like #{code 'last'}
-      and #{code 'join'}, are specific to arrays.  Still
-      others, like #{code 'push'} and #{code 'pop'},
-      actually change the array.  And just as with
-      the string methods, you don't have to remember
-      all of these, as long as you can remember where to
-      find out about them (right here).
+      Entonces hemos aprendido sobre #{code 'each'}, pero hay muchos metodos
+      mas... al menos muchos como metodos strings! De hecho, algunos de ellos
+      (como #{code 'length'}, #{code 'reverse'}, #{code '+'}, y #{code '*'})
+      trabajan igual que lo hacen para strings, excepto que ellos operan sobre
+      las posiciones de un array y no sobre letras de un string. Otros, como
+      #{code 'last'} y #{code 'join'}, son especificos de arrays. Aún otros, 
+      como #{code 'push'} y #{code 'pop'}, en realidad cambian el array. Y
+      asi como con metodos para strings, no tienen que recordar todos, puedes
+      recurrir a recordar sobre ellos(justo aquí)
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

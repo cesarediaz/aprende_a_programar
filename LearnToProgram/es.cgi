@@ -2458,10 +2458,10 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      First, let's look at #{code 'to_s'} and #{code 'join'}.
-      #{code 'join'} works much like #{code 'to_s'} does, except
-      that it adds a string in between the array's objects.
-      Let's take a look:
+      Primero, vamos a echar un vistazo a #{code 'to_s'} y #{code 'join'}.
+      #{code 'join'} trabaja tal como #{code 'to_s'} lo hace, excepto que 
+      este agrega un string entre los objetos del array.
+      Vamos a mirar un poco:
       END_PARAGRAPH
     end
     prog do <<-END_CODE

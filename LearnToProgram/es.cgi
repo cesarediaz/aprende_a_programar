@@ -2385,10 +2385,10 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     prog do <<-END_CODE
-      languages = ['English', 'German', 'Ruby']
+      lenguajes = ['English', 'German', 'Ruby']
       
-      languages.each do |lang|
-        puts 'Me gusta ' + lang + '!'
+      lenguajes.each do |leng|
+        puts 'Me gusta ' + leng + '!'
         puts 'A ti?'
       end
       
@@ -2397,16 +2397,16 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      So what just happened?  Well, we were able to go through
-      every object in the array without using any numbers, so
-      that's definitely nice.  Translating into English, the above
-      program reads something like:  For #{code 'each'} object
-      in #{code 'languages'}, point the variable #{code 'lang'}
-      to the object and then #{code 'do'} everything I tell you to,
-      until you come to the #{code 'end'}.  (Just so you know,
-      C++ is another programming language.  It's much harder to
-      learn than Ruby; usually, a C++ program will be many times
-      longer than a Ruby program which does the same thing.)
+      Que acaba de ocurrir? Bueno, tenemos permitido ir a travez
+      de cada objeto en el array sin utilizar ningun número, así 
+      esto es definitivamente mejor. Traducido al castellano 
+      diriamos que: Para cada #{code 'each'} objeto en #{code 'lenguajes'}
+      , apunta la variable #{code 'leng'} al objeto y entonces #{code 'do'}
+      (do = hacer) todo lo que te digo, hasta que llegues al #{code 'end'}.
+      (Solo para que sepas, C++ es otro lenguaje de programacion. Este es 
+       mucho mas difícil de aprender que Ruby; por lo general, un programa
+       hecho en C++ sera muchas veces mas extenso que un programa en Ruby
+       que haga la misma funcionalidad)
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

@@ -2418,22 +2418,12 @@ class LearnToProgramTutorial
       <span class="L2Pcode"><span class="L2Pkeyword">#{@@KEYWORD_COLOR}</span></span>
       palabras no lo son. Ellos son una parte fundamental del lenguaje Ruby
       , tal como #{code '='} y las parentesis; tipos de puntuacion como en Ingles
-
-      You might be thinking to yourself, "This is a lot like
-      the loops we learned about earlier."  Yep, it's similar.
-      One important difference is that the method #{code 'each'}
-      is just that:  a method.  #{code 'while'} and #{code 'end'}
-      (much like #{code 'do'}, #{code 'if'}, #{code 'else'}, and all the other
-      <span class="L2Pcode"><span class="L2Pkeyword">#{@@KEYWORD_COLOR}</span></span>
-      words) are not methods.  They are a fundamental part of the Ruby
-      language, just like #{code '='} and parentheses; kind of
-      like punctuation marks in English.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      But not #{code 'each'}; #{code 'each'} is just another
-      array method.  Methods like #{code 'each'} which "act like"
-      loops are often called <dfn>iterators</dfn>.
+      Pero no  #{code 'each'}; #{code 'each'} is solo otro metodo del array.
+      Metodos como #{code 'each'} los cuales 'actuan como' bucles son a menudo
+      llamados <dfn>iterators</dfn>.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

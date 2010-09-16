@@ -2527,9 +2527,9 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      &bull; Try writing the above program <em>without</em> using
-      the #{code 'sort'} method.  A large part of programming is
-      solving problems, so get all the practice you can!
+      &bull; Trata escribiendo el programa sugerido anteriormente <em>sin</em> usar
+      el metodo #{code 'sort'} .  Una gran parte de la programacion es la solucion de
+      problemas, entonces obtienes toda la practica que puedas!
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

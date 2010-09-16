@@ -1315,21 +1315,15 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      But really, that <em>is</em> what they are:  things
-      that do stuff.  If objects (like strings,
-      integers, and floats) are the nouns in the Ruby
-      language, then methods are like the verbs.
-      And, just like in English, you can't have a
-      verb without a noun to <em>do</em> the verb.
-      For example, ticking isn't something that just
-      happens; a clock (or a watch or something)
-      has to do it.  In English we would say, "The
-      clock ticks."  In Ruby we would say
-      #{code 'clock.tick'} (assuming that #{code 'clock'}
-      was a Ruby object, of course).
-      Programmers might say we were "calling #{code 'clock'}'s
-      #{code 'tick'} method,"
-      or that we "called #{code 'tick'} on #{code 'clock'}."
+      Pero realmente, esto <em>es</em> lo que son: cosas que generan otras. 
+      Si objetos(como strings, enteros, y punto flotantes) sos los sujetos en 
+      el lenguaje Ruby, entonces los metodos son como verbos. Y, justo como en
+      Ingles, tu no puedes tener un verbo sin un sustantivo para <em>hacer</em> el verbo.
+      Por ejemplo, tic-tac no es algo que solo ocurre; un reloj(o algo) tiene que hacer
+      esto. En Ingles podemos decir, "El reloj hace tic-tac". En Ruby podemos decir 
+      #{code 'clock.tick'} (asumiendo que #{code 'clock'} es un objeto Ruby, por supuesto.
+      Programadores pueden decir que estamos "llamando el metodo #{code 'tick'} de 
+      #{code 'clock'}."
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

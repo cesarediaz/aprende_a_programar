@@ -2352,10 +2352,9 @@ class LearnToProgramTutorial
       Cuando hacemos malabares con seis objetos, nosotros estamos con 
       los objetos 0-5. Esperamos en los próximos meses poder manejarnos
       con el objeto 6(y por lo tanto trataremos de manejarnos con 7 objetos) 
-
-       You'll know you've got it when you
-      start using the word "zeroth".  :-) Yes, it's a real
-      word; ask any programmer or mathematician.
+      Tu sabras que lo has aprendido cuando comienzes a usar la palabra 
+      "cero". Sí, esto es real; pregunta a cualquier programador o 
+       matemático.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

@@ -2427,10 +2427,10 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      One thing to notice about iterators is that they are
-      always followed by #{code 'do'}...#{code 'end'}.
-      #{code 'while'} and #{code 'if'} never had a #{code 'do'}
-      near them; we only use #{code 'do'} with iterators.
+      Algo para saber sobre iteradores es que estos son siempre seguidos por 
+      #{code 'do'}...#{code 'end'}. 
+      #{code 'while'} y #{code 'if'} nunca tuvieron un #{code 'do'} cerca de ellos;
+      nosotros solo usamos #{code 'do'} con iteradores
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

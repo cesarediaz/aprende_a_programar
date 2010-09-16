@@ -2378,21 +2378,21 @@ class LearnToProgramTutorial
     end
     h2 {"The Method #{code 'each'}"}
     para do <<-END_PARAGRAPH
-      #{code 'each'} allows us to do something (whatever we
-      want) to #{code 'each'} object the array points to.  So, if we
-      want to say something nice about each language in the array
-      below, we'd do this:
+      #{code 'each'} nos permite hacer algo(lo que quieramos)
+      a #{code 'each'} objeto que apunte. Asi, is queremos decir algo
+      bueno acercah de cada lenguaje en el array abajo, podriamos hacer
+      esto:      
       END_PARAGRAPH
     end
     prog do <<-END_CODE
       languages = ['English', 'German', 'Ruby']
       
       languages.each do |lang|
-        puts 'I love ' + lang + '!'
-        puts 'Don\\'t you?'
+        puts 'Me gusta ' + lang + '!'
+        puts 'A ti?'
       end
       
-      puts 'And let\\'s hear it for C++!'
+      puts 'Y vamos a escuchar esto para C++!'
       puts '...'
       END_CODE
     end

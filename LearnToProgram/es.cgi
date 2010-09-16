@@ -2358,15 +2358,16 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Finally, we tried #{code 'puts names[3]'}, just to see what
-      would happen.  Were you expecting an error?  Sometimes when
-      you ask a question, your question doesn't make sense (at
-      least to your computer); that's when you get an error.
-      Sometimes, however, you can ask a question and the answer
-      is <em>nothing</em>.  What's in slot three?  Nothing.
-      What is #{code 'names[3]'}?  #{code 'nil'}:  Ruby's way
-      of saying "nothing".  #{code 'nil'} is a special object
-      which basically means "not any other object."
+      Finalmente, tratamos #{code 'puts names[3]'}, solo para ver 
+      que podría suceder. Estabamos esperando un error? Algunas veces
+      cuando preguntas algo, tu pregunta no tiene sentido(al menos para
+      tu computadora); ahí es cuando obtienes un error.      
+      Algunas veces, en cambio, tu puedes preguntar algo y la 
+      respuesta es <em>nada</em>. Que es la posicion tres? Nada.
+      Que es  #{code 'names[3]'}?  #{code 'nil'}: Es la forma Ruby
+      de decir "nada". #{code 'nil'}  es un objeto especial lo cual
+      significa "no hay ningún objeto".
+
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

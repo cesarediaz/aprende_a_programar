@@ -1338,21 +1338,18 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      So as I was saying, just as every verb needs
-      a noun, so every method needs an object.
-      It's usually easy to tell which object is
-      performing the method:  it's what comes right
-      before the dot, like in our #{code 'clock.tick'}
-      example, or in #{code '101.to_s'}.
-      Sometimes, however, it's not quite as
-      obvious; like with the arithmetic methods.  As
-      it turns out, #{code '5 + 5'} is really
-      just a shortcut way of writing #{code '5.+ 5'}.
-      For example:
+      Entonces como estaba diciendo, como cada verbo necesita un sustantivo,
+      entonces cada metodo necesita un objeto. Esto es generalmente fácil de 
+      indicar: es el que viene justo antes de un punto, como nuestro 
+      ejemplo #{code 'clock.tick'}, o en #{code '101.to_s'}.
+      Algunas veces, sin embargo, esto no es tan obvio; como con los metodos 
+      aritmeticos. Como resulta, #{code '5 + 5'}  es solo otra forma facil de 
+      escribir #{code '5.+ 5'}.
+      Por ejemplo:
       END_PARAGRAPH
     end
     prog do <<-END_CODE
-      puts 'hello '.+ 'world'
+      puts 'hola '.+ 'mundo'
       puts (10.* 9).+ 9
       END_CODE
     end

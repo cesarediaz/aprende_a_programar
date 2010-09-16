@@ -2481,14 +2481,13 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      As you can see, #{code 'puts'} treats arrays differently
-      from other objects:  it just calls #{code 'puts'} on each
-      of the objects in the array.  That's why #{code 'puts'}ing
-      an empty array 200 times doesn't do anything; the array doesn't
-      point to anything, so there's nothing to #{code 'puts'}.  (Doing
-      nothing 200 times is still doing nothing.)
-      Try #{code 'puts'}ing an array containing other arrays;
-      does it do what you expected?
+      Como puedes ver, #{code 'puts'} trata el array diferente  a otros objetos: 
+      este solo llama #{code 'puts'} sobre cada uno de los objetos en el array. 
+      Esto es porque #{code 'puts'}ing un array vacio 200 veces no hace nada; el 
+      array no apunta a nada; entonces no hay nada para #{code 'puts'}. (Hacer nada
+      200 veces continua siendo hacer nada)
+      Trata de usar #{code 'puts'} en un array conteniendo otros arrays; hace lo 
+      que esperabas que hiciera?
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

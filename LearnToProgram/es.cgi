@@ -2434,8 +2434,8 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Here's another cute little iterator, but it's not an
-      array method... it's an integer method!
+      Aquí hay otro pequeño iterador, pero esto no es un metodo array... es un metodo
+      integer!
       END_PARAGRAPH
     end
     prog do <<-END_CODE

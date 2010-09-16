@@ -2519,13 +2519,11 @@ class LearnToProgramTutorial
       puts favorites.length
       END_CODE
     end
-    h2 {'A Few Things to Try'}
+    h2 {'Unas pocas cosas a probar'}
     para do <<-END_PARAGRAPH
-      &bull; Write the program we talked about at the very beginning
-      of this chapter.<br />
-      <em><strong>Hint:</strong>  There's a lovely
-      array method which will give you a sorted version of an
-      array:  </em>#{code 'sort'}<em>.  Use it!</em>
+      &bull; Escribe el programa del cual hablamos al principio de este capitulo.<br />
+      <em><strong>Consejo:</strong>  Hay un hermoso metodo de arrays el cual te dara la 
+      version ordenada de un array:  </em>#{code 'sort'}<em>.  Usalo!</em>
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

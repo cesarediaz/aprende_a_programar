@@ -2410,6 +2410,15 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
+      Tu estaras pensando para ti mismo, "Esto es un monton de bucles 
+      como los que hemos aprendido antes". Sí, esto es similar. 
+      Una diferencia importante es que el método #{code 'each'} es solo eso:
+      un método. #{code 'while'} y #{code 'end'} (tal como #{code 'do'}, 
+      #{code 'if'}, #{code 'else'}, y todos las otras 
+      <span class="L2Pcode"><span class="L2Pkeyword">#{@@KEYWORD_COLOR}</span></span>
+      palabras no lo son. Ellos son una parte fundamental del lenguaje Ruby
+      , tal como #{code '='} y las parentesis; tipos de puntuacion como en Ingles
+
       You might be thinking to yourself, "This is a lot like
       the loops we learned about earlier."  Yep, it's similar.
       One important difference is that the method #{code 'each'}

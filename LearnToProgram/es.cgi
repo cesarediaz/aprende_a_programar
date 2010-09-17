@@ -1419,9 +1419,9 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     prog do <<-END_CODE
-      var1 = 'stop'
-      var2 = 'stressed'
-      var3 = 'Can you pronounce this sentence backwards?'
+      var1 = 'parar'
+      var2 = 'subrayado'
+      var3 = 'Puedes pronunciar esta oración al reves?'
       
       puts var1.reverse
       puts var2.reverse
@@ -1432,11 +1432,9 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      As you can see, #{code 'reverse'} doesn't reverse the
-      original string; it just makes
-      a new backwards version of it.  That's why #{code 'var1'}
-      is still #{code "'stop'"}
-      even after we called #{code 'reverse'} on #{code 'var1'}.
+      Como puedes ver, #{code 'reverse'} no revierte el orden en el string original; este
+      solo hace una nueva version de este en reversa. Esto es porque #{code 'var1'} continua
+      #{code "'stop'"} aun después de que llamamos  #{code 'reverse'} sobre  #{code 'var1'}.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

@@ -1459,9 +1459,9 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     prog ['Christopher David Pine'] do <<-END_CODE
-      puts 'What is your full name?'
+      puts 'Cuál es tu nombre completo?'
       name = gets.chomp
-      puts 'Did you know there are ' + name.length.to_s + ' characters in your name, ' + name + '?'
+      puts 'Sabías que hay ' + name.length.to_s + ' caracteres en tu nombre, ' + name + '?'
       END_CODE
     end
     para do <<-END_PARAGRAPH

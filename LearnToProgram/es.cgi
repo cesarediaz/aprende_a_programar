@@ -1449,8 +1449,8 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Uh-oh!  Something went wrong, and it looks like it happened sometime after the line
-      #{code 'name = gets.chomp'}...  Do you see the problem?  See if you can figure it out.
+      Uhh!! Algo salió mal, y esto parece que ocurrio despues la linea 
+      #{code 'name = gets.chomp'}... Puedes ver el problema? Fijate si puedes darte cuenta.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

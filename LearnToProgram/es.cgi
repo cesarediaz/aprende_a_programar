@@ -1438,9 +1438,8 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Another string method is #{code 'length'}, which tells
-      us the number of characters (including
-      spaces) in the string:
+      Otro metodo para strings es #{code 'length'}, el cual nos dice el numero de caracteres
+      (incluyendo caracteres) en el string:
       END_PARAGRAPH
     end
     prog ['Christopher David Pine'] do <<-END_CODE

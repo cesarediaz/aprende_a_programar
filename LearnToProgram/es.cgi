@@ -1391,12 +1391,9 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      If you didn't entirely follow all of that,
-      that's OK.  The important thing to take away from
-      all of this is that every method is being
-      done by some object, even if it doesn't have
-      a dot in front of it.  If you understand
-      that, then you're all set.
+      Si no alcansaste a comprender todo, esta bien. Lo importante es 
+      todo metodo esta siendo propiedad de un objeto, incluso si no tiene
+      un punto enfrente de este. Si entiendes esto, estas preparado.
       END_PARAGRAPH
     end
     h2 {'Fancy String Methods'}

@@ -1398,23 +1398,19 @@ class LearnToProgramTutorial
     end
     h2 {'Fancy String Methods'}
     para do <<-END_PARAGRAPH
-      Let's learn a few fun string methods.  You don't
-      have to memorize them all; you can
-      just look up this page again if you forget
-      them.  I just want to show you a <em>small</em>
-      part of what strings can do.  In fact, I
-      can't remember even half of the string methods myself&mdash;but
-      that's fine, because there are great references
-      on the internet with all of the string
-      methods listed and explained.  (I will show
-      you where to find them at the end of this tutorial.)
-      Really, I don't even <em>want</em> to know
-      all the string methods; it's kind of like knowing every
-      word in the dictionary.  I can speak English
-      just fine without knowing every word in
-      the dictionary... and isn't that really the whole
-      point of the dictionary?  So you don't <em>have</em>
-      to know what's in it?
+      Vamos a aprender unos pocos pero interesantes metodos. No tienes
+      porque memorizar todos; puedes mirar esta pagina de nuevo si te
+      olvidas de alguno. Yo solo quiero mostrarte una <em>pequeña</em>
+      parte de lo que puede hacer un string. De hecho, no recuerdo ni
+      siquiera la mitad de los metodos para strings; pero esta bien, porque
+      hay buenas referencias en internet con todo acerca de los de string
+      listados y explicados. (Voy a mostrarte donde encontrar esas referencias
+      al final del tutorial.)
+      Realmente, tampoco <em>quiero</em> saber todo acerca de los metodos string;
+      sino sería como tratar de conocer cada palabra en el diccionario. Pued hablar
+      Ingles bien sin conocer cada una de las palabras del diccionario... y es
+      este realmente todo el objetivo del diccionario? Entonces no <em>tienes</em> 
+      que saber que hay en este?
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

@@ -1454,8 +1454,8 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      The problem is with #{code 'length'}:  it gives us a number, but we want a string.  Easy enough,
-      we'll just throw in a #{code 'to_s'} (and cross our fingers):
+      El problema es con #{code 'length'}: esto te devuelve un número, pero nosotros queremos
+      un string. Esto es fácil, necesitamos solo agregar #{code 'to_s'} (y cruzar nuestros dedos):
       END_PARAGRAPH
     end
     prog ['Christopher David Pine'] do <<-END_CODE

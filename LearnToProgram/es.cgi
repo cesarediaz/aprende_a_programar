@@ -1414,8 +1414,8 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      So, our first string method is #{code 'reverse'},
-      which gives a backwards version of a string:
+      Entonces, nuestro primer metodo string es #{code 'reverse'},
+      el cual nos una version invertida de un string:
       END_PARAGRAPH
     end
     prog do <<-END_CODE

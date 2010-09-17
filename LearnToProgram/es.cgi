@@ -1371,24 +1371,17 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      And, of course, we still have #{code 'puts'}
-      and #{code 'gets'} to explain.  Where are their
-      objects?  In English, you can sometimes leave
-      out the noun; for example, if a villain
-      yells "Die!", the implicit noun is whoever
-      he is yelling at.  In Ruby, if I say
-      #{code "puts 'to be or not to be'"}, what
-      I am really saying is
-      #{code "self.puts 'to be or not to be'"}.
-      So what is #{code 'self'}?  It's a special variable
-      which points to whatever object you are in.
-      We don't even know how to be <em>in</em>
-      an object yet, but until we find out, we
-      are always going to be in a big object which
-      is... the whole program!  And lucky for us,
-      the program has a few methods of its own,
-      like #{code 'puts'} and #{code 'gets'}.
-      Watch this:
+      Y, por supuesto, continuaremos teniendo #{code 'puts'} y #{code 'gets'} para explicar.
+      Donde estan sus objetos? En Ingles, puedes algunas veces dejar fuera el sustantivo;
+      por ejemplo, si un villano grita "Muere!", el sustantivo implicito es a quien el esta
+      gritando. En Ruby, if digo #{code "puts 'ser o no ser'"}, lo que realmente estoy 
+      diciendo es #{code "self.puts 'to be or not to be'"}.
+      Entonces que es #{code 'self'}? Esta es una variable especial que apunta a cualquier 
+      en el que estes. No siempre sabemos como estar <em>en</em> un objeto,pera hasta que nos
+      demos cuenta, siempre iremos a estar en un gran objeto que es... el programa entero! Y 
+      para nuestra suerte, el programa tendra unos pocos metodos en si mismo, como #{code 'puts'} 
+      y #{code 'gets'}.
+      Observa lo siguiente:
       END_PARAGRAPH
     end
     prog do <<-END_CODE

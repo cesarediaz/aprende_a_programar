@@ -1356,27 +1356,18 @@ class LearnToProgramTutorial
     para do <<-END_PARAGRAPH
       Esto no es muy lindo, por lo que no vamos a escribir siempre como ahora.
       ; sin embargo, es importante para entender que sucede <em>realmente</em>.
-      (En mi pc, que tambien 
-
-      It isn't very pretty, so we won't ever write
-      it like that; however, it's important to
-      understand what is <em>really</em> happening.
-      (On my machine, that also gives me a <dfn>warning</dfn>:
-      #{output 'warning: parenthesize argument(s) for future version'}.
-      It still ran the code just fine, but it's telling me that
-      it's having trouble figuring out what I mean, and to use
-      more parentheses in the future.)
-      This also gives us a deeper understanding
-      of why we can do #{code "'pig'*5"} but we
-      can't do #{code "5*'pig'"}:  #{code "'pig'*5"} is
-      telling #{code "'pig'"} to do the multiplying,
-      but #{code "5*'pig'"} is telling #{code '5'}
-      to do the multiplying.  #{code "'pig'"} knows how
-      to make #{code '5'} copies of itself and
-      add them all together; however, #{code '5'}
-      will have a much more difficult time of making
-      #{code "'pig'"} copies of <em>itself</em>
-      and adding them together.
+      (En mi pc, que también me da un <dfn>warning</dfn>:#{output 'warning: 
+      parenthesize argument(s) for future version'}. Esto continua corriendo
+      bien el código. pero esta diciendome que esta teniendo un problema para
+      entender que estoy intentando hacer, y para usar mas parentesis en el 
+      futuro.)
+      Esto también nos da un profundo entendimiento de porque podemos hacer
+      #{code "'pig'*5"} pero no podemos hacer #{code "5*'pig'"}: #{code "'pig'*5"}
+      esta diciendo a #{code "'pig'"} de hacer la multiplicación, pero #{code "5*'pig'"} 
+      esta diciendo  #{code '5'} de hacer la multiplicación. #{code "'pig'"} sabe como 
+      hacer  #{code '5'} copias de si mismo y agregar todos ellos juntos; sin embargo,
+      #{code '5'} tendra mucha mas dificultad en tiempo de hacer #{code "'pig'"} copias
+      de si <em>mismo</em> y sumarlos a todos juntos.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

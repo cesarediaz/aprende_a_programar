@@ -1506,14 +1506,11 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      The last of the fancy string methods we'll look at
-      are for visual formatting.
-      The first one, #{code 'center'}, adds spaces to the beginning and
-      end of the string to make it centered.  However, just like you have
-      to tell #{code 'puts'} what you want it to print, and #{code '+'}
-      what you want it to add, you have to tell #{code 'center'} how
-      wide you want your centered string to be.  So if I wanted to center
-      the lines of a poem, I would do it like this:
+      Lo ultimo de los metodos que veremos son los de formato visual. El primero es, #{code 'center'},
+      suma espacios al comienzo y final para hacer que este centrado. Sin embargo, solo tienes
+      que decir #{code 'puts'} a lo que quieres imprimir, y #{code '+'} a lo que quieres sumar, pero
+      tienes que decir a #{code 'center'} cuan ancho tiene que ser el string centrado. Entonces si quiero
+      centrar las lineas de un poema, debería hacer algo como esto:
       END_PARAGRAPH
     end
     prog do <<-END_CODE

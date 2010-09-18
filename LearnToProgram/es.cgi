@@ -1465,18 +1465,16 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      No, I did not know that.  <strong>Note:</strong>  that's the number of
-      <em>characters</em> in my name, not the number of <em>letters</em>
-      (count 'em).  I guess we could write a program which
-      asks for your first, middle, and last names individually, and then
-      adds those lengths together... hey, why don't you do that!  Go ahead,
-      I'll wait.
+      No, no conocía esto.  <strong>Nota:</strong> esto es el número de
+      <em>caracteres</em> en mi nombre, no el número de <em>letras</em>. Supongo
+      que podríamos escribir un programa el cual nos pregunte por nuestro primer
+      nombre, medio, y apellido individualmente, y entonces sumar estos tamaños
+      todos juntos... ey, porque no haces esto! Comienza, esperare.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Did you do it?  Good!  It's nice to program, isn't it?
-      After a few more chapters, though, you'll be amazed at
-      what you can do.
+      Lo hiciste? Bien! Es un lindo programa, no? Después de unos pocos capítulos más, 
+      pienso, estaras sorprendido de lo que podras hacer. 
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

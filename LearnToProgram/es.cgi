@@ -1478,13 +1478,12 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      So, there are also a number of string methods which change the case
-      (uppercase and lowercase) of your string.  #{code 'upcase'} changes
-      every lowercase letter to uppercase, and #{code 'downcase'} changes
-      every uppercase letter to lowercase.  #{code 'swapcase'} switches
-      the case of every letter in the string, and finally, #{code 'capitalize'}
-      is just like #{code 'downcase'}, except that it switches the first
-      character to uppercase (if it is a letter).
+      Entonces, hay también un número de metodos string los cuales cambian
+      el contenido(mayúsculas y minúsculas) de tu string. #{code 'upcase'} 
+      cambian cada minúscula por mayúscula. #{code 'swapcase'} cambia en cada
+      letra en el string("Hola".swapcase  #=> "hOLA"), y finalmente, #{code 'capitalize'}
+      es como #{code 'downcase'}, excepto que esto cambia solo el primer caracter a
+      mayúsculas(si es una letra).
       END_PARAGRAPH
     end
     prog do <<-END_CODE

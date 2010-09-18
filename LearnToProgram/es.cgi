@@ -1497,14 +1497,12 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Pretty standard stuff.  As you can see from the line
-      #{code "puts ' a'.capitalize"}, the method #{code 'capitalize'}
-      only capitalizes the first <em>character</em>, not the first
-      <em>letter</em>.  Also, as we have seen before, throughout all of
-      these method calls, #{code 'letters'} remains unchanged.  I don't mean
-      to belabor the point, but it's important to understand.  There are
-      some methods which <em>do</em> change the associated object, but we haven't
-      seen any yet, and we won't for some time.
+      Esto es bastante standar. Como puedes ver desde la linea #{code "puts ' a'.capitalize"},
+      el método #{code 'capitalize'} solo deja en mayúsculas el primer <em>caracter</em>, no 
+      la primer <em>letra</em>. También, como hemos visto antes, en todas estas llamadas a 
+      metodos, , #{code 'letters'} permanece igual. No quiero decir que se dedica solo a esto,
+      pero es importante entenderlo. Hay algunos metodos los cuales <em>hacen</em> cambios a los
+      objetos asociados, pero no los hemos visto aún, y no lo haremos por algún tiempo. 
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

@@ -1632,8 +1632,8 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      There's one last method to mention before we check out the random number
-      generator:  #{code 'abs'}.  It just takes the absolute value of the number:
+      Hay un último método para mencionar antes de chequear el método random: 
+       #{code 'abs'}. Este solo toma el valor absoluto de un número:
       END_PARAGRAPH
     end
     prog do <<-END_CODE

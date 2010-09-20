@@ -1541,11 +1541,11 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      So, about that centering... you may have noticed that it isn't quite
-      as beautiful as what a word processor would have done.  If you really
-      want perfect centering (and maybe a nicer font), then you should just use
-      a word processor!  Ruby is a wonderful tool, but no tool is the right
-      tool for <em>every</em> job.
+      Entonces, acerca del centrado... tu te daras cuenta que esto no es muy
+      lindo como podría serlo un procesador de texto. Si realmente quieres un 
+      perfecto centrado (y quizás una fuente mas linda), entonces deberías
+      solo usar un procesador de textos!. Ruby es una herramienta maravillosa,
+      pero no la herramienta correcta para <em>cualquier</em> trabalo.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

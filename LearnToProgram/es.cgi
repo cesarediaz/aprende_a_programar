@@ -1673,14 +1673,14 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Note that I used #{code 'rand(101)'} to get back numbers from #{code '0'}
-      to #{code '100'}, and that #{code 'rand(1)'} always
-      gives back #{code '0'}.  Not understanding the range of possible return
-      values is the biggest mistake I see people make with #{code 'rand'}; even professional
-      programmers; even in finished products you can buy at the store.  I even
-      had a CD player once which, if set on "Random Play," would play every song but
-      the last one...  (I wonder what would have happened if I had put in a CD with
-      only one song on it?)
+      Fijate que utilice #{code 'rand(101)'} para obtener números entre #{code '0'}
+      y #{code '100'}, y que el #{code 'rand(1)'} siempre devuelve #{code '0'}. No
+      entender el rango posible de retorno de valores es el error mas grande que veo
+      en gente que hace #{code 'rand'}; aún programadores profesionales, mas aun en 
+      productos finalizados que puedes comprar. Incluso tenía un reproductor de CD, 
+      una vez que, si se configuraba en "Reproducción aleatoria," reproduciría jugaría 
+      cada canción, pero no la última ... (Me pregunto qué hubiera pasado si hubiera 
+      puesto en un CD con sólo una canción sobre ella?)
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

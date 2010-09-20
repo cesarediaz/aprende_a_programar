@@ -1587,7 +1587,7 @@ class LearnToProgramTutorial
           'Capítulo 2:  Lettras                       página 72' + $/ +
           'Capítulo 3:  Variables                    página 118' + $/ +
           '</pre>'
-    h2 {'Higher Math'}
+    h2 {'Matemáticas Avanzadas'}
     para do <<-END_PARAGRAPH
       <em>(Esta sección es totalmente opcional. Este asume un conocimiento
       previo de matemáticas. Si no estas interesado, puedes ir directamente
@@ -1597,14 +1597,14 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      There aren't nearly as many number methods as there are string methods
-      (though I still don't know them all off the top of my head).  Here, we'll
-      look at the rest of the arithmetic methods, a random number generator,
-      and the #{code 'Math'} object, with its trigonometric and transcendental
-      methods.
+      No hay ni cerca tantos metodos numericos como los hay para strings(pienso
+      que aun no los conozco a todos sin recurrir a la ayuda de documentación).
+      Aquí, vamos a mirar el resto de los métodos de aritmetica, un generador
+      numerico random, y el objeto #{code 'Math'} , con sus metodos trigonometricos
+      y transcendental.
       END_PARAGRAPH
     end
-    h2 {'More Arithmetic'}
+    h2 {'Mas de aritmetica'}
     para do <<-END_PARAGRAPH
       The other two arithmetic methods are #{code '**'} (exponentiation)
       and #{code '%'} (modulus).  So if you want to say "five squared"

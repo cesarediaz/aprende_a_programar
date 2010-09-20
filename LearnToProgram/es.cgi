@@ -1684,12 +1684,14 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Sometimes you might want #{code 'rand'} to return the <em>same</em> random numbers
-      in the same sequence on two different runs of your program.  (For example, once I
-      was using randomly generated numbers to create a randomly generated world for a computer
-      game.  If I found a world that I really liked, perhaps I would want to play on it
-      again, or send it to a friend.)  In order to do this, you need to set the
-      <em>seed</em>, which you can do with #{code 'srand'}.  Like this:
+      Algunas veces querras que #{code 'rand'} retorne el <em>mismo</em>
+      random de números incluso en la misma secuencia en dos diferentes ejecuciones
+      de tu programa. (Por ejemplo, una vez estaba utilizando numeros generados 
+      aleatoriamente para crear un mundo al azar por un juego de computadoras.
+      Encontre un mundo que realmente me gusto, quizas me hubiera gustado jugar de nuevo
+      con este o enviarlo a un amigo.) Con el fin de hacer esto, tu necesitas configurar 
+      la <em>"generacion de este"</em>, lo que se puede hacer con #{code 'srand'}. Como 
+      lo siguiente:
       END_PARAGRAPH
     end
     prog do <<-END_CODE

@@ -1606,13 +1606,13 @@ class LearnToProgramTutorial
     end
     h2 {'Mas de aritmetica'}
     para do <<-END_PARAGRAPH
-      The other two arithmetic methods are #{code '**'} (exponentiation)
-      and #{code '%'} (modulus).  So if you want to say "five squared"
-      in Ruby, you would write it as #{code '5**2'}.  You can also use
-      floats for your exponent, so if you want the square root of 5, you
-      could write #{code '5**0.5'}.  The modulus method gives you the remainder
-      after division by a number.  So, for example, if I divide 7 by 3,
-      I get 2 with a remainder of 1.  Let's see it working in a program:
+      Los otros dos metodos aritmeticos son #{code '**'} (exponencia) y #{code '%'} 
+      (modulo). Entonces si quieres decir "cinco al cuadrado" en Ruby, deberías 
+      escribir algo asi #{code '5**2'}. Tambien puedes usar flotantes para tus 
+      exponentes, entonces si queires una raiz cuadrada de 5, deberías escribir 
+      #{code '5**0.5'}. Los metodos modulo te dan el sobrante después de una división
+      por un número. Entonces, por ejemlo, si divido 7 por 3, obtengo 2 con un remanente
+      de 1. Vamos a ver como es que trabaja en un programa:
       END_PARAGRAPH
     end
     prog do <<-END_CODE

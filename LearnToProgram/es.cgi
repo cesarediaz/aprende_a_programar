@@ -1581,19 +1581,19 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     puts '<pre class="L2PoutputBlock">' +
-          '                Table of Contents                ' + $/ +
-          '                                                 ' + $/ +
-          'Chapter 1:  Numbers                        page 1' + $/ +
-          'Chapter 2:  Letters                       page 72' + $/ +
-          'Chapter 3:  Variables                    page 118' + $/ +
+          '                Tabla de Contenidos                 ' + $/ +
+          '                                                    ' + $/ +
+          'Capítulo 1:  Números                        página 1' + $/ +
+          'Capítulo 2:  Lettras                       página 72' + $/ +
+          'Capítulo 3:  Variables                    página 118' + $/ +
           '</pre>'
     h2 {'Higher Math'}
     para do <<-END_PARAGRAPH
-      <em>(This section is totally optional.  It assumes a fair degree
-      of mathematical knowledge.  If you aren't interested, you
-      can go straight to #{makeLink 'Flow Control', :generateFlowControl}
-      without any problems.  However, a quick look at the section
-      on <strong>Random Numbers</strong> might come in handy.)</em>
+      <em>(Esta sección es totalmente opcional. Este asume un conocimiento
+      previo de matemáticas. Si no estas interesado, puedes ir directamente
+      al siguiente capitulo #{makeLink 'Flow Control', :generateFlowControl}
+      sin problemas. Aunque, una rápida vista de esta sección sobre
+      <strong>Random de Números</strong> debería venir bien.)</em>
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

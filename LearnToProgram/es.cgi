@@ -1711,11 +1711,11 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      It will do the same thing every time you seed it with the same number.  If you want
-      to get different numbers again (like what happens if you never use
-      #{code 'srand'}), then just call #{code 'srand 0'}.  This seeds it with a
-      really weird number, using (among other things) the current time on
-      your computer, down to the millisecond.
+      Esto hara la misma cosa cada vez que inicies con el mismo número. Si quieres
+      obtener diferentes números(como pasaría si nunca utilizaras #{code 'srand'}), 
+      entonces solo llamas a #{code 'srand 0'}. Esto inicializa con un número 
+      realmente raro, utilizando (ademas de otras cosas) la hora actual de tu 
+      computadora, hasta los milisegundos.
       END_PARAGRAPH
     end
     h2 {"The #{code 'Math'} Object"}

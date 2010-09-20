@@ -1575,9 +1575,9 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      &bull; So here's something for you to do in order to play around more with
-      #{code 'center'}, #{code 'ljust'}, and #{code 'rjust'}:  Write a program
-      which will display a Table of Contents so that it looks like this:
+      &bull; Entonces aquí hay algo para que hagas en orden de jugar un poco mas con
+      #{code 'center'}, #{code 'ljust'}, y #{code 'rjust'}: Escribe un programa el 
+      cual muestre una Tabla de Contenidos que se parezca a lo siguiente:
       END_PARAGRAPH
     end
     puts '<pre class="L2PoutputBlock">' +

@@ -1718,10 +1718,10 @@ class LearnToProgramTutorial
       computadora, hasta los milisegundos.
       END_PARAGRAPH
     end
-    h2 {"The #{code 'Math'} Object"}
+    h2 {"El Objeto #{code 'Math'}"}
     para do <<-END_PARAGRAPH
-      Finally, let's look at the #{code 'Math'} object.  We might as well
-      jump right in:
+      Finalmente, vamos a echar un vistazo al objeto #{code 'Math'}. Deveríamos
+      ir directamene a este:
       END_PARAGRAPH
     end
     prog do <<-END_CODE
@@ -1734,21 +1734,20 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      The first thing you noticed was probably the #{code '::'}
-      notation.  Explaining the <dfn>scope operator</dfn> (which is what that is)
-      is really beyond the, uh... scope of this tutorial.  No pun
-      intended.  I swear.  Suffice it to say, you can use
-      #{code 'Math::PI'} just like you would expect to.
+      La primera cosa de la que te habras dado cuenta es probablemente de
+      la notación #{code '::'}. Explicando el <dfn>alcance del operador</dfn>
+      (que es esto) esta realmente , fuera del objetivo de este tutorial.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      As you can see, #{code 'Math'} has all of the things you would
-      expect a decent scientific calculator to have.  And as always,
-      the floats are <em>really close</em> to being the right answers.
+      Como puedes ver, #{code 'Math'} tiene todas las cosas que podrias 
+      esperar de una calculadora científica decente. Y como siempre, los
+      punto flotante estan <em>realmente cerca</em> de ser la respuesta
+      correcta.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      So now let's #{makeLink 'flow', :generateFlowControl}!
+      Entonces ahora vamos a  #{makeLink 'flow', :generateFlowControl}!
       END_PARAGRAPH
     end
   end

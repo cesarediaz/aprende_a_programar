@@ -1549,11 +1549,11 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      The other two string formatting methods are #{code 'ljust'} and
-      #{code 'rjust'}, which stand for <dfn>left justify</dfn> and
-      <dfn>right justify</dfn>.  They are similar to #{code 'center'}, except
-      that they pad the string with spaces on the right and left sides,
-      respectively.  Let's take a look at all three in action:
+      Los otros dos metodos de formateo de strings son #{code 'ljust'} y 
+      #{code 'rjust'}, lo cual significan <dfn>justificado izquierdo</dfn> y
+      <dfn>justificado derecho</dfn>. Estos son similares a #{code 'center'},
+      excepto que ellos rellenan los lados derecho e izquierdo respectivamente.
+      Vamos a verlos en acción:
       END_PARAGRAPH
     end
     prog do <<-END_CODE

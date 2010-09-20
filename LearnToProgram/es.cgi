@@ -1565,12 +1565,13 @@ class LearnToProgramTutorial
       puts str.ljust (lineWidth/2) + str.rjust (lineWidth/2)
       END_CODE
     end
-    h2 {'A Few Things to Try'}
+    h2 {'Algunas cosas mas para probar'}
     para do <<-END_PARAGRAPH
-      &bull; Write an Angry Boss program.  It should rudely ask what you want.
-      Whatever you answer, the Angry Boss should yell it back to you, and
-      then fire you.  For example, if you type in #{input 'I want a raise.'}, it should yell back
-      #{output 'WHADDAYA MEAN "I WANT A RAISE."?!?  YOU\'RE FIRED!!'}
+      &bull; Escribe un programa Jefe Enojado. Esto debe preguntar de mala 
+      manera que quieres. Cualquier cosa que consultes, el Jefe Enojado debera
+      devolverte la consulta de mala forma, y luego despedirte. Por ejemplo,
+      si tu escribes #{input 'Quiero un aumento.'}, esto debera contestarte
+     #{output 'PERO QUE DICES HOMBRE "QUIERO UN AUMENTO."?!?  ESTAS DESPEDIDO!!'}
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

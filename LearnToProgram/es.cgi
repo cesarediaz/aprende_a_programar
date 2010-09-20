@@ -1641,15 +1641,14 @@ class LearnToProgramTutorial
       puts((2-5).abs)
       END_CODE
     end
-    h2 {'Random Numbers'}
+    h2 {'Random Numerico'}
     para do <<-END_PARAGRAPH
-      Ruby comes with a pretty nice random number generator.  The method to get
-      a randomly chosen number is #{code 'rand'}.  If you call #{code 'rand'} just like
-      that, you'll get a float greater than or equal to #{code '0.0'} and less
-      than #{code '1.0'}.  If you give #{code 'rand'} an integer (#{code '5'}
-      for example), it will give you an integer greater than or equal to
-      #{code '0'} and less than #{code '5'} (so five possible numbers,
-      from #{code '0'} to #{code '4'}).
+      Ruby viene con un lindo generador de números random. El método para obtener
+      un número random es #{code 'rand'}. Si llamas #{code 'rand'} , obtendras un
+      número flotante mayor o igual a #{code '0.0'} y menor a #{code '1.0'}. Si
+      le proporcionas a #{code 'rand'} un número entero (#{code '5'} for example),
+      esto te devolvera un entero mayor o igual a #{code '0'} y menor a #{code '5'} 
+      (entonces son cinco números posibles, de #{code '0'} a #{code '4'}).
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

@@ -1652,8 +1652,9 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Let's see #{code 'rand'} in action.  (If you reload this page, these numbers will
-      change each time.  You did know I was actually running these programs, didn't you?)
+      Vamos a ver #{code 'rand'}  en accion. (Si recargas esta página, veras que
+      el número cambiara cada vez. Tu sabías que estoy corriendo estos programas, 
+      lo sabías?!?!
       END_PARAGRAPH
     end
     prog do <<-END_CODE
@@ -1667,8 +1668,8 @@ class LearnToProgramTutorial
       puts(rand(1))
       puts(rand(1))
       puts(rand(99999999999999999999999999999999999999999999999999999999999))
-      puts('The weatherman said there is a '+rand(101).to_s+'% chance of rain,')
-      puts('but you can never trust a weatherman.')
+      puts('El pronosticador del tiempo dijo que hay '+rand(101).to_s+'% chances de que llueva,')
+      puts('pero nunca debes confiar en el.')
       END_CODE
     end
     para do <<-END_PARAGRAPH

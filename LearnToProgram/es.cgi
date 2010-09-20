@@ -1624,11 +1624,11 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      From that last line, we learn that a (non-leap) year has some number
-      of weeks, plus one day.  So if your birthday was on a Tuesday this year,
-      it will be on a Wednesday next year.  You can also use floats with the modulus
-      method.  Basically, it works the only sensible way it could... but I'll
-      let you play around with that.
+      De la ultima linea, aprendimos que un año (no bisiestos) tienen algún 
+      número de semanas, más un día. Entonces si tu cumpleaños fue un Martes 
+      este año, el próximo año sera un Miércoles. Tu también puedes usar 
+      flotantes con los metodos modulo. Basicamente, funciona de una manera
+      lógica... pero voy a mostrar un poco mas como trabajar con esto.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

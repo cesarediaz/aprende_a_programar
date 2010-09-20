@@ -1524,20 +1524,20 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Hmmm... I don't think that's how that nursery rhyme goes, but I'm
-      too lazy to look it up.  (Also, I wanted to line up the
-      #{code '.center lineWidth'} part, so I put in those extra spaces
-      before the strings.  This is just because I think it is prettier
-      that way.  Programmers often have strong feelings about what is pretty
-      in a program, and they often disagree about it.  The more you
-      program, the more you will come into your own style.)  Speaking of
-      being lazy, laziness isn't always
-      a bad thing in programming.  For example, see how I stored the
-      width of the poem in the variable #{code 'lineWidth'}?  This was so that
-      if I want to go back later and make the poem wider, I only have to
-      change the very top line of the program, instead of every line which
-      does centering.  With a very long poem, this could save me a lot of
-      time.  That kind of laziness is really a virtue in programming.
+      Mmmm.. no pienso que esto es un campamento de verano, pero estoy muy 
+      cansado para buscar esto. (Entonces, quise alinear la parte 
+      #{code '.center lineWidth'} , entonces puse esos espacios extras antes
+      de los strings. Esto es así solo porque pienso que es mas lindo de
+      esta forma. Programadores generalmente tienen duros conceptos acerca
+      de que es lindo en un programa, y a menudo confrontan acerca de esto. 
+      Cuanto mas programes, mas lograras tu propio estilo.)  Hablando de ser
+      perezoso a la hora de programar, esto no es siempre algo malo en 
+      programación. Por ejemplo, fijate como salve el ancho del poema en la
+      variable  #{code 'lineWidth'}? Esto es que si entonces quiero regresar
+      mas tarde y hacer el poema mas ancho, solo tengo que cambiar la variable
+      al comienzo del programa, antes que en cada linea. Con un poema muy largo,
+      esto podría ahorrarme un montón de tiempo. Este tipo de pereza es realmente
+      una virtud en programación.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

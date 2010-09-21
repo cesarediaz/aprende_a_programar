@@ -3944,21 +3944,19 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      So what is this cool new thing?  It's the ability to take
-      a <dfn>block</dfn> of code (code in between #{code 'do'}
-      and #{code 'end'}), wrap it up in an object (called a
-      <dfn>proc</dfn>), store it in a variable or pass it to a
-      method, and run the code in the block whenever you feel
-      like (more than once, if you want).  So it's kind of like
-      a method itself, except that it isn't bound to an object
-      (it <em>is</em> an object), and you can store it or pass
-      it around like you can with any object.  I think it's example
-      time:
+      Entonces que es esto que es tan bueno? Esto tiene la habilidad
+      de tomar un <dfn>bloque</dfn> de código(código entre #{code 'do'} 
+      y #{code 'end'}), que rodean esto en un objeto (llamado <dfn>proc</dfn>),
+      lo guarda en una variable o lo pasa a un método, y ejecuta el código en un
+      bloque donde te guste(mas de una vez, si quieres.) Entonces esto es 
+      un tipo método en si mismo, excepto que no es compartido con otro objeto mas
+      (esto <em>es</em> un objeto), y puedes almacenar o pasar este como cualquier 
+      otro objeto. Es tiempo de un ejemplo:
       END_PARAGRAPH
     end
     prog do <<-END_CODE
       toast = Proc.new do
-        puts 'Cheers!'
+        puts 'Aplausos!'
       end
       
       toast.call

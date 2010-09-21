@@ -3965,10 +3965,10 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      So I created a proc (which I think is supposed to be short for
-      "procedure", but far more importantly, it rhymes with "block")
-      which held the block of code, then I #{code 'call'}ed the proc
-      three times.  As you can see, it's a lot like a method.
+      Entonces creé un proc (el cual pienzo debería ser pronunciado como
+      "procedimiento", pero mas importante, esto rima con "bloque") el cual
+      contiene un bloque de código, y #{code 'call'}ed ('llame') el proc tres
+      veces. Como puedes ver, esto es como un método.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

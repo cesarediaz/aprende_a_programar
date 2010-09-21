@@ -3995,8 +3995,8 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      (By the way, is any of this looking familiar?  Yep, you've seen blocks before... when
-      you learned about iterators.  But let's talk more about that in a bit.)
+      (De hecho, es algo familiar para ti? Sí, tu has visto bloques antes.. cuando aprendiste
+       sobre iteradores. Pero vamos a hablar un poco mas acerca de esto en breve)	
       END_PARAGRAPH
     end
     h2 { 'Methods Which Take Procs' }

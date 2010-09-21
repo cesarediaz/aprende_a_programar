@@ -3972,8 +3972,8 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Actually, it's even more like a method than I have shown you, because
-      blocks can take parameters:
+      En realidad, esto es mas que métodos que he mostrado, porque los bloques pueden
+      tomar parametros:
       END_PARAGRAPH
     end
     prog do <<-END_CODE

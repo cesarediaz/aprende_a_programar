@@ -3986,12 +3986,12 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Ok, so we see what blocks and procs are, and how to use them, but what's
-      the point?  Why not just use methods?  Well, it's because there are some
-      things you just can't do with methods.  In particular, you can't pass
-      methods into other methods (but you can pass procs into methods), and methods
-      can't return other methods (but they can return procs).  This is simply because
-      procs are objects; methods aren't.
+      Muy bien, entonces vemos que son los bloques y procs, y como usarlos, pero 
+      cual es el punto? Porque no utilizar simples métodos? Bueno, esto es porque
+      hay mas cosas que no podemos hacer con simples métodos. En particular, no 
+      puedes pasar métodos a otros métodos(pero puedes pasar procs dentro de métodos),
+      y métodos no pueden retornar otros métodos(pero ellos pueden retornar procs). Esto
+      es simplemente porque procs son objetos; los métodos no son objetos
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

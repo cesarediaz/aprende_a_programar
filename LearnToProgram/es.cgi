@@ -3937,10 +3937,10 @@ class LearnToProgramTutorial
   
   def generateBlocksProcs
     para do <<-END_PARAGRAPH
-      This is definitely one of the coolest features of Ruby.  Some
-      other languages have this feature, though they may call it
-      something else (like <dfn>closures</dfn>), but most of the
-      more popular ones don't, and it's a shame.
+      Esta es definitivamente una de las mejores herramientas de Ruby.
+      Algunos lenguajes tienen esta herramienta, pienso que la llamaran
+      de otra forma(como <dfn>closures</dfn>), pero la mayoría de los mas
+      populares no lo hacen, una pena.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

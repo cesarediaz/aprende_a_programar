@@ -4001,9 +4001,9 @@ class LearnToProgramTutorial
     end
     h2 { 'Methods Which Take Procs' }
     para do <<-END_PARAGRAPH
-      When we pass a proc into a method, we can control how, if, or how many times we call
-      the proc.  For example, let's say there's something we want to do before and after
-      some code is run:
+      Cuando pasamos un proc en un un metodo, podemos controlar como, o cuantas veces llamamos
+      el proc. Por ejemplo, vamos a decir que queremos hacer antes y después que cierto código
+      se esta ejecutando:
       END_PARAGRAPH
     end
     prog do <<-END_CODE

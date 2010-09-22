@@ -4041,9 +4041,9 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      You can also write methods which will determine how many times, or even
-      <em>if</em> to call a proc.  Here's a method which will call the proc passed in
-      about half of the time, and another which will call it twice:
+      También pudes escribir metodos los cuales cuantas veces, o incluso <em>sí</em>
+      llamar a un proc. Aquí hay un metodo el cual llama a un proc pasado en la mitad
+      de tiempo, y otro el cual sera llamara a este dos veces:
       END_PARAGRAPH
     end
     prog do <<-END_CODE

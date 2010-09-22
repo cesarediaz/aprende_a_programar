@@ -4073,10 +4073,10 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      (If you reload this page a few times, you'll see the output change.)  These are some of
-      the more common uses of procs which enable us to do things we simply could not have done
-      using methods alone.  Sure, you could write a method to wink twice, but you couldn't write
-      one to just do <em>something</em> twice!
+      (Si recargas esta pagina un par de veces, veras que la salida cambiara.) Estos son
+      algunos de los casos comunes de uso de procs lo que le permite hacer cosas utilizando
+      simplemente metodos no podriamos hacerlo. Seguramente, podrías escribir un metodo para
+      hacer algo dos veces, pero no podías escribir uno que haga <em>algo</em> dos veces!
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

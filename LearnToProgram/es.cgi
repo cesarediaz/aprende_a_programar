@@ -4026,17 +4026,18 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Maybe that doesn't appear particulary fabulous... but it is.  :-)
-      It's all too common in programming to have strict requirements about what
-      must be done when.  If you want to save a file, for example, you have to
-      open the file, write out the information you want it to have, and then close
-      the file.  If you forget to close the file, Bad Things(tm) can happen.  But
-      each time you want to save or load a file, you have to do the same thing:
-      open the file, do what you <em>really</em> want to do, then close the file.
-      It's tedious and easy to forget.  In Ruby, saving (or loading) files works
-      similarly to the code above, so you don't have to worry about anything but
-      what you actually want to save (or load).  (In the next chapter I'll show you
-      where to find out how to do things like save and load files.)
+      Quizás esto no parezca muy fabulozo... pero lo es. :-)
+      Es común en programacion tener requerimientos estrictos acerca de 
+      que debe ser hecho y cuando. Si quieres salvar un archivo, por ejemplo,
+      tienes que abrir el archivo, escribir la informacion que quieres que 
+      contenga este, y luego cerrar el archivo. Si olvidas cerrar el archivo, 
+      Puede Tener malas consecuencias. Pero cada vez que quieras salvar un archivo
+      o cargar uno, tu tienes que hacer lo mismo: abrir el archivo, hacer lo que
+      <em>realmente</em> quieres hacer , luego cerrar el archivo. Esto es tedioso
+      y facil de olvidar. En Ruby, guardando (o cargando) archivos trabaja similar
+      al codigo anterior, entonces no tienes que preocuparte por nada mas que por
+      lo que quieres guardar(o subir). (En el próximo capitulo mostrare donde 
+      encontrar info sobre guardar y cargar archivos.)
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

@@ -4080,16 +4080,15 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Before we move on, let's look at one last example.  So far the procs
-      we have passed in have been fairly similar to each other.  This time
-      they will be quite different, so you can see how much such a method
-      depends on the procs passed into it.  Our
-      method will take some object and a proc, and will call the proc
-      on that object.  If the proc returns false, we quit; otherwise
-      we call the proc with the returned object.  We keep doing this
-      until the proc returns false (which it had better do eventually,
-      or the program will crash).  The method will return the last
-      non-false value returned by the proc.
+      Antes de continuar, vamos a ver un último ejemplo. Los procs que 
+      hemos visto son bastante similares. Es tiempo de ver algo diferente, 
+      entonces vamos a ver cuanto un metodo depende de un proc pasado a este.
+      Nuestro metodo tomara algun objeto y un proc, y llamara a este proc 
+      sobre este objeto. Si el proc retorna falso, finalizamos; en otro caso
+      llamaremos al proc con el objeto. Continuaremos haciendo esto hasta
+      que el proc retorne falso(esto es mejor, o el programa finalizara con 
+      error). El metodo retornara el último valor no falso retornado por 
+      el proc.
       END_PARAGRAPH
     end
     prog do <<-END_CODE

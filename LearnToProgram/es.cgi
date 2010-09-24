@@ -4124,8 +4124,8 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Ok, so that was a pretty weird example, I'll admit.  But it shows how differently
-      our method acts when given very different procs.
+      Esta bien, este es un ejemplo bastante raro, debo admitirlo. Pero esto mustra como 
+      actua diferente nuetro metodo cuando le damos diferentes procs.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

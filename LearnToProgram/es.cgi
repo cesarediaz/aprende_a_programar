@@ -4109,9 +4109,9 @@ class LearnToProgramTutorial
         if lastNumber <= 0
           false
         else
-          array.pop                         #  Take off the last number...
-          array.push lastNumber*lastNumber  #  ...and replace it with its square...
-          array.push lastNumber-1           #  ...followed by the next smaller number.
+          array.pop                         #  Quitar el último número...
+          array.push lastNumber*lastNumber  #  ...y reemplazar este con el último número elevado al cuadrado...
+          array.push lastNumber-1           #  ...seguido por un número menor.
         end
       end
       
@@ -4120,7 +4120,7 @@ class LearnToProgramTutorial
       end
       
       puts doUntilFalse([5], buildArrayOfSquares).inspect
-      puts doUntilFalse('I\\'m writing this at 3:00 am; someone knock me out!', alwaysFalse)
+      puts doUntilFalse('Estoy escribiendo esto a las 3:00 am; alguien que lo finalize!', alwaysFalse)
       END_CODE
     end
     para do <<-END_PARAGRAPH

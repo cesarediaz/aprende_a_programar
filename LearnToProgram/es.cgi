@@ -4154,9 +4154,9 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      In this example, #{code 'compose'} takes two procs and returns a new
-      proc which, when called, calls the first proc and passes its result
-      into the second proc.
+      En este ejemplo, #{code 'compose'} toma dos procs y retorna un nuevo 
+      proc el cual, cuando es llamado, llama el primer proc y pasa el resultado
+      de este al segundo proc.
       END_PARAGRAPH
     end
     prog do <<-END_CODE

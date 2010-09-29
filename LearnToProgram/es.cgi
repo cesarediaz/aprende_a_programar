@@ -4129,15 +4129,15 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      The #{code 'inspect'} method is a lot like #{code 'to_s'}, except
-      that the string it returns tries to show you the ruby code for
-      building the object you passed it.  Here it shows us the whole
-      array returned by our first call to #{code 'doUntilFalse'}.  Also, you might
-      notice that we never actually squared that #{code '0'} on the end of that
-      array, but since #{code '0'} squared is still just #{code '0'}, we didn't have to.
-      And since #{code 'alwaysFalse'} was, you know, always #{code 'false'},
-      #{code 'doUntilFalse'} didn't do anything at all the second time we
-      called it; it just returned what was passed in.
+      El método #{code 'inspect'} es como #{code 'to_s'}, excepto que 
+      el string que este retorna trata de mostrarte el código ruby 
+      para el objeto que se le paso. Este nos muestra el array completo
+      para nuestra primera llamada a  #{code 'doUntilFalse'}. Tambien, tu 
+      puedes darte cuenta que en realidad nunca elevo al cuadrado el #{code '0'}
+      al final de este array, pero desde que #{code '0'} fue elevado al cuadrado
+      este continua como  #{code '0'}. Y dado que era #{code 'alwaysFalse'}, sabes,
+      siempre #{code 'false'}, #{code 'doUntilFalse'}  no hacia nada en absoluto la
+      segunda vez que lo llamabamos, este solo retornaba lo que se le pasaba.
       END_PARAGRAPH
     end
     h2 { 'Methods Which Return Procs' }

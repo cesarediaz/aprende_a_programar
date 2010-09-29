@@ -4182,8 +4182,9 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Notice that the call to #{code 'proc1'} had to be inside the
-      parentheses for #{code 'proc2'} in order for it to be done first.
+      Si te das cuenta que la llamada a #{code 'proc1'} tuvo que estar
+      dentro de parentesis del #{code 'proc2'} con el fin de que se haga
+      primero.
       END_PARAGRAPH
     end
     h2 { 'Passing Blocks (Not Procs) into Methods' }

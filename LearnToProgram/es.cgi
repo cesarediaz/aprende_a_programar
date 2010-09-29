@@ -4142,16 +4142,15 @@ class LearnToProgramTutorial
     end
     h2 { 'Methods Which Return Procs' }
     para do <<-END_PARAGRAPH
-      One of the other cool things you can do with procs is to create
-      them in methods and return them.  This allows all sorts of crazy
-      programming power (things with impressive names, like
-      <dfn>lazy evaluation</dfn>, <dfn>infinite data structures</dfn>,
-      and <dfn>currying</dfn>),
-      but the fact is that I almost never do this in practice, nor
-      can I remember seeing anyone else do this in their code.  I think
-      it's the kind of thing you don't usually end up having to do in Ruby,
-      or maybe Ruby just encourages you to find other solutions; I don't
-      know.  In any case, I will only touch on this briefly.
+      Una de las mejores cosas que puedes hacer con procs es crearlos
+      en metodos y devolverlos. Esto permite todo tipo de interesante 
+      poder de programacion(cosas con nombres interesantes, como
+      <dfn>evaluacion peresoza</dfn>, <dfn>estructura infinita de datos</dfn>, y
+      <dfn>endurecer</dfn>), pero el hecho es que yo casi nunca pongo esto en 
+      practica, o no puedo recordar a nadie mas haciendo esto en su codigo.
+      Pienso que este es el tipo de cosas que no tienes que terminar haciendo
+      en Ruby, o quizás Ruby te ayuda a buscar otras soluciones; no se. En 
+      cualquier caso, voy a hablar brevemente sobre esto. 
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

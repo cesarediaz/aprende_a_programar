@@ -4187,7 +4187,7 @@ class LearnToProgramTutorial
       primero.
       END_PARAGRAPH
     end
-    h2 { 'Passing Blocks (Not Procs) into Methods' }
+    h2 { 'Pasando Bloques (No Procs) a Métodos' }
     para do <<-END_PARAGRAPH
       Bien, entonces esto ha tenido algunas cosas academicamente interesantes,
       pero también un poco problematico para su uso. Todo el problema es que 
@@ -4197,30 +4197,30 @@ class LearnToProgramTutorial
       sin usar un proc nunca), dado que la mayoría de las veces no quisieras usar
       proc/block después de pasar este al método. Bueno, por si no lo sabes, 
       Ruby tiene esto resuelto por nosotros. De hecho, has estado haciendo 
-      estocada vez que usas iteradores.
+      esto cada vez que usas iteradores.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      I'll show you a quick example first, then we'll talk about it.
+      Voy a mostrar primero un ejemplo rápido, del cual hablaremos luego.
       END_PARAGRAPH
     end
     #  HACK ALERT!!!  (I can't get to the global namespace transparently
     #                  from inside the StringIO object in a mod_ruby script.)
     arrayClassHack = <<-END_CODE
         def eachEven(&wasABlock_nowAProc)
-          isEven = true  #  We start with "true" because arrays start with 0, which is even.
+          isEven = true  #  Comenzamos con  "true" porque arrays comienzan con 0, el cual es par.
           
           self.each do |object|
             if isEven
               wasABlock_nowAProc.call object
             end
             
-            isEven = (not isEven)  #  Toggle from even to odd, or odd to even.
+            isEven = (not isEven)  #  Activar de para a impar, o de impar a par.
           end
         end
       END_CODE
     
-    Array.module_eval arrayClassHack  #  This is the real method definition.
+    Array.module_eval arrayClassHack  #  Esto es una definicion real de método.
     #  The following defines a method in "another" array class:
     #  END HACK ALERT!!!
     prog do <<-END_CODE

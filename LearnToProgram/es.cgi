@@ -4189,16 +4189,15 @@ class LearnToProgramTutorial
     end
     h2 { 'Passing Blocks (Not Procs) into Methods' }
     para do <<-END_PARAGRAPH
-      Ok, so this has been sort of academically interesting, but also
-      sort of a hassle to use.  A lot of the problem is that there are
-      three steps you have to go through (defining the method, making
-      the proc, and calling the method with the proc), when it sort of
-      feels like there should only be two (defining the method, and
-      passing the <em>block</em> right into the method, without using
-      a proc at all), since most of the time you don't want to use the
-      proc/block after you pass it into the method.  Well, wouldn't you
-      know, Ruby has it all figured out for us!  In fact, you've already
-      been doing it every time you use iterators.
+      Bien, entonces esto ha tenido algunas cosas academicamente interesantes,
+      pero también un poco problematico para su uso. Todo el problema es que 
+      tienes tres pasos (definición de método, hacer el proc, y llamar el método
+      con el proc), cuando sientes como que debería tener solo dos
+      (definiendo el método y pasando el <em>bloque</em> directo en el método,
+      sin usar un proc nunca), dado que la mayoría de las veces no quisieras usar
+      proc/block después de pasar este al método. Bueno, por si no lo sabes, 
+      Ruby tiene esto resuelto por nosotros. De hecho, has estado haciendo 
+      estocada vez que usas iteradores.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

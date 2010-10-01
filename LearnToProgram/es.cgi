@@ -4233,9 +4233,9 @@ class LearnToProgramTutorial
         puts 'Delicioso!  Me encantan los pasteles de '+fruta+' , y a tí?'
       end
       
-      #  Remember, we are getting the even-numbered elements
-      #  of the array, all of which happen to be odd numbers,
-      #  just because I like to cause problems like that.
+      #  Recuerda, estamos obteniendo los elementos pares numerados
+      #  de el array, todos los que parecen ser números pares,
+      #  solo porque me gusta causer problemas como estos.
       [1, 2, 3, 4, 5].eachEven do |oddBall|
         puts oddBall.to_s+'  NO es un número par!'
       end

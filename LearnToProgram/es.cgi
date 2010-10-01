@@ -4215,7 +4215,7 @@ class LearnToProgramTutorial
               wasABlock_nowAProc.call object
             end
             
-            isEven = (not isEven)  #  Activar de para a impar, o de impar a par.
+            isEven = (not isEven)  #  Activar de par a impar, o de impar a par.
           end
         end
       END_CODE
@@ -4230,14 +4230,14 @@ class LearnToProgramTutorial
       end
       
       ['apple', 'bad apple', 'cherry', 'durian'].eachEven do |fruit|
-        puts 'Yum!  I just love '+fruit+' pies, don\\'t you?'
+        puts 'Delicioso!  Me encantan los pasteles de '+fruta+' , y a tí?'
       end
       
       #  Remember, we are getting the even-numbered elements
       #  of the array, all of which happen to be odd numbers,
       #  just because I like to cause problems like that.
       [1, 2, 3, 4, 5].eachEven do |oddBall|
-        puts oddBall.to_s+' is NOT an even number!'
+        puts oddBall.to_s+'  NO es un número par!'
       end
       END_CODE
     end

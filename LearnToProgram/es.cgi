@@ -4242,16 +4242,16 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      So to pass in a block to #{code 'eachEven'}, all we had to do was stick
-      the block after the method.  You can pass a block into any method this
-      way, though many methods will just ignore the block.  In order to make
-      your method <em>not</em> ignore the block, but grab it and turn it into
-      a proc, put the name of the proc at the end of your method's parameter
-      list, preceded by an ampersand (#{code '&'}).  So that part is a little
-      tricky, but not too bad, and you only have to do that once (when you
-      define the method).  Then you can use the method over and over again,
-      just like the built-in methods which take blocks, like #{code 'each'}
-      and #{code 'times'}.  (Remember #{code '5.times do'}...?)
+      Entonces para pasar en un bloque #{code 'eachEven'}, todo lo que tuvimos
+      que hacer fue pegar el bloque después del método. Puedes pasar un bloque
+      a un método de este modo, aunque muchos métodos solo ingoraran el bloque.
+      Para hacer que el método <em>no</em> ignore el bloque, pero tomen este y
+      lo conviertan en un proc, hay que poner el nombre del proc al final de 
+      la lista de parametros, precedidos por un un ampersand (#{code '&'}). 
+      Entonces esta parte es un pequeño truco, no tan malo, y solo tienes que 
+      hacer esto una vez(cuando definas el método). Luego puedes usar el método
+      una y otra vez, tal como métodos que toman bloques, como  #{code 'each'}
+      y #{code 'times'}. (Recuerda #{code '5.times do'}...?)
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

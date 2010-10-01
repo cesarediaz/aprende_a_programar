@@ -3939,7 +3939,7 @@ class LearnToProgramTutorial
     para do <<-END_PARAGRAPH
       Esta es definitivamente una de las mejores herramientas de Ruby.
       Algunos lenguajes tienen esta herramienta, pienso que la llamaran
-      de otra forma(como <dfn>closures</dfn>), pero la mayoría de los mas
+      de otra forma(como <dfn>closures</dfn>), pero la mayoría de los más
       populares no lo hacen, una pena.
       END_PARAGRAPH
     end
@@ -3948,8 +3948,8 @@ class LearnToProgramTutorial
       de tomar un <dfn>bloque</dfn> de código(código entre #{code 'do'} 
       y #{code 'end'}), que rodean esto en un objeto (llamado <dfn>proc</dfn>),
       lo guarda en una variable o lo pasa a un método, y ejecuta el código en un
-      bloque donde te guste(mas de una vez, si quieres.) Entonces esto es 
-      un tipo método en si mismo, excepto que no es compartido con otro objeto mas
+      bloque donde te guste(más de una vez, si quieres.) Entonces esto es 
+      un tipo método en si mismo, excepto que no es compartido con otro objeto más
       (esto <em>es</em> un objeto), y puedes almacenar o pasar este como cualquier 
       otro objeto. Es tiempo de un ejemplo:
       END_PARAGRAPH
@@ -3966,13 +3966,13 @@ class LearnToProgramTutorial
     end
     para do <<-END_PARAGRAPH
       Entonces creé un proc (el cual pienzo debería ser pronunciado como
-      "procedimiento", pero mas importante, esto rima con "bloque") el cual
+      "procedimiento", pero más importante, esto rima con "bloque") el cual
       contiene un bloque de código, y #{code 'call'}ed ('llame') el proc tres
       veces. Como puedes ver, esto es como un método.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      En realidad, esto es mas que métodos que he mostrado, porque los bloques pueden
+      En realidad, esto es más que métodos que he mostrado, porque los bloques pueden
       tomar parametros:
       END_PARAGRAPH
     end
@@ -3988,7 +3988,7 @@ class LearnToProgramTutorial
     para do <<-END_PARAGRAPH
       Muy bien, entonces vemos que son los bloques y procs, y como usarlos, pero 
       cual es el punto? Porque no utilizar simples métodos? Bueno, esto es porque
-      hay mas cosas que no podemos hacer con simples métodos. En particular, no 
+      hay más cosas que no podemos hacer con simples métodos. En particular, no 
       puedes pasar métodos a otros métodos(pero puedes pasar procs dentro de métodos),
       y métodos no pueden retornar otros métodos(pero ellos pueden retornar procs). Esto
       es simplemente porque procs son objetos; los métodos no son objetos
@@ -3996,7 +3996,7 @@ class LearnToProgramTutorial
     end
     para do <<-END_PARAGRAPH
       (De hecho, es algo familiar para ti? Sí, tu has visto bloques antes.. cuando aprendiste
-       sobre iteradores. Pero vamos a hablar un poco mas acerca de esto en breve)	
+       sobre iteradores. Pero vamos a hablar un poco más acerca de esto en breve)	
       END_PARAGRAPH
     end
     h2 { 'Methods Which Take Procs' }
@@ -4035,7 +4035,7 @@ class LearnToProgramTutorial
       o cargar uno, tu tienes que hacer lo mismo: abrir el archivo, hacer lo que
       <em>realmente</em> quieres hacer , luego cerrar el archivo. Esto es tedioso
       y facil de olvidar. En Ruby, guardando (o cargando) archivos trabaja similar
-      al codigo anterior, entonces no tienes que preocuparte por nada mas que por
+      al codigo anterior, entonces no tienes que preocuparte por nada más que por
       lo que quieres guardar(o subir). (En el próximo capitulo mostrare donde 
       encontrar info sobre guardar y cargar archivos.)
       END_PARAGRAPH
@@ -4147,7 +4147,7 @@ class LearnToProgramTutorial
       poder de programacion(cosas con nombres interesantes, como
       <dfn>evaluacion peresoza</dfn>, <dfn>estructura infinita de datos</dfn>, y
       <dfn>endurecer</dfn>), pero el hecho es que yo casi nunca pongo esto en 
-      practica, o no puedo recordar a nadie mas haciendo esto en su codigo.
+      práctica, o no puedo recordar a nadie más haciendo esto en su codigo.
       Pienso que este es el tipo de cosas que no tienes que terminar haciendo
       en Ruby, o quizás Ruby te ayuda a buscar otras soluciones; no se. En 
       cualquier caso, voy a hablar brevemente sobre esto. 
@@ -4424,7 +4424,7 @@ class LearnToProgramTutorial
     h2 {'The Pickaxe:  "Programming Ruby"'}
     para do <<-END_PARAGRAPH
       Absolutely <em>the</em> Ruby book to get is "Programming Ruby,
-      The Pragmatic Programmer's Guide", by David Thomas and Andrew
+      The Pragmatic Programmer's Guide", by David Thomás and Andrew
       Hunt (the Pragmatic Programmers).  While I highly recommend
       picking up the
       <a href="http://www.pragmaticprogrammer.com/titles/ruby/">2nd edition</a>

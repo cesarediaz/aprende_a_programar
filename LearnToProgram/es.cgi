@@ -4255,12 +4255,13 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      If you get confused, just remember what #{code 'eachEven'} is supposed to do:  call
-      the block passed in with every other element in the array.  Once
-      you've written it and it works, you don't need to think about what it's
-      actually doing under the hood ("which block is called when??"); in
-      fact, that's exactly <em>why</em> we write methods like this:  so we
-      never have to think about how they work again.  We just use them.
+      Si piensas que estas confundido, solo recuerda que #{code 'eachEven'} 
+      supuestamente tiene que hacer lo siguiente: llamar al bloque pasado en 
+      cada elemento del array. Una vez que hayas escrito esto y funcione, no 
+      necesitas pensar que esta haciendo en realidad debajo del 'capó'("que bloque
+      es llamado y cuando??"); de hecho, esto es exactamente <em>porque</em> 
+      escribimos métodos como este: entonces no tenemos que volver a pensar como 
+      trabajan de nuevo. Solo los utilizamos.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

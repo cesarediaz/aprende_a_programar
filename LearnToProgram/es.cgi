@@ -4234,7 +4234,7 @@ class LearnToProgramTutorial
       end
       
       #  Recuerda, estamos obteniendo los elementos pares numerados
-      #  de el array, todos los que parecen ser números pares,
+      #  de el array, todos los que parecen ser números impares,
       #  solo porque me gusta causer problemas como estos.
       [1, 2, 3, 4, 5].eachEven do |oddBall|
         puts oddBall.to_s+'  NO es un número par!'

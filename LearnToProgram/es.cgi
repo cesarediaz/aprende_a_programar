@@ -4344,15 +4344,15 @@ class LearnToProgramTutorial
           '..."outer block" finished, returning:  false' + $/ +
           '</pre>'
     para do <<-END_PARAGRAPH
-      &bull; <em>Better Logger</em>.  The output from that last logger was kind
-      of hard to read, and it would just get worse the more you used it.  It would
-      be so much easier to read if it indented the lines in the inner blocks.  To
-      do this, you'll need to keep track of how deeply nested you are every time
-      the logger wants to write something.  To do this, use a <dfn>global variable</dfn>,
-      a variable you can see from anywhere in your code.  To make a global variable,
-      just precede your variable name with #{code '$'}, like these:
-      #{code '$global'}, #{code '$nestingDepth'}, and #{code '$bigTopPeeWee'}.
-      In the end, your logger should output code like this:
+      &bull; <em>Logeo mejorado</em>. La salida del último programa fue difícil de
+      leer, y podría ser peor cuanto más lo utilices. Este sería más fácil de leer si 
+      tendría sangría en las lineas de los bloques internos. Para hacer esto, necesitaras
+      recordar cuan profunda es la sangría cada vez que el programa quiera escribir algo en el log.
+      Para hacer esto, utiliza una <dfn>variable global</dfn>, que es una variable que 
+      puedes acceder desde cualquier parte de el código de programa. Para hacer una variable
+      global, solo precedes el nombre de la variable con #{code '$'}, como esto: 
+      #{code '$global'}, #{code '$nestingDepth'}, y  #{code '$bigTopPeeWee'}.
+      Al finalizar, el archivo de log debería verse como esto:
       END_PARAGRAPH
     end
     puts '<pre class="L2PoutputBlock">' +

@@ -1804,18 +1804,17 @@ class LearnToProgramTutorial
       y fácil que el capítulo #{makeLink 'methods', :generateMethods}, este le abrira un mundo entero
       de posibilidades de programación. Después de este capítulo, seremos capaces de escribir programas
       realmente interactivos; antes hicimos programas los cuales <em>decían</em> diferentes cosas
-      dependiendo del la entrada de teclado, pero después de este capítulo estos <em>haran</em> en realidad
-      diferentes cosas. Pero antes podamos hacer esto, nosotros necesitamos poder comaparar objetos en 
+      dependiendo de la entrada de teclado, pero después de este capítulo estos <em>haran</em> en realidad
+      diferentes cosas. Pero antes de que podamos hacer esto, nosotros necesitamos poder comaparar objetos en 
       nuestros programas. Necesitamos....
       END_PARAGRAPH
     end
-    h2 {'Comparison Methods'}
+    h2 {'Métodos de comparación'}
     para do <<-END_PARAGRAPH
-      Let's rush through this part so we can get to the next
-      section, <strong>Branching</strong>, where all the cool
-      stuff happens.  So, to see if one object is greater than
-      or less than another, we use the methods #{code '>'}
-      and #{code '<'}, like this:
+      Vamos a intoducirnos rápido en esta parte entonces podemos llegar a la siguiente
+      sección, <strong>Branching(ramificación)</strong>, donde todas las cosas lindas suceden. Entonces,
+      para ver si un objeto es mayor que o menor que otro, nosotros usamos los métodos #{code '>'}
+      y #{code '<'}, así :
       END_PARAGRAPH
     end
     prog do <<-END_CODE

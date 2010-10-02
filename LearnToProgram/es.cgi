@@ -1847,10 +1847,10 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Of course, we can compare strings, too.  When strings
-      get compared, they compare their <dfn>lexicographical ordering</dfn>,
-      which basically means their dictionary ordering.  #{code 'cat'}
-      comes before #{code 'dog'} in the dictionary, so:
+      Porsupuesto, podemos comparar strings también. Cuando los strings
+      son comparados, ellso comparan su <dfn>orden lexicográfico</dfn>,
+      el cuál basicamente significa su orden de diccionario. #{code 'cat'}
+      esta antes que #{code 'dog'} en el diccionario, entonces:
       END_PARAGRAPH
     end
     prog do <<-END_CODE

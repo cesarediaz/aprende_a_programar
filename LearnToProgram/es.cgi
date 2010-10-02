@@ -4265,13 +4265,13 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      I remember one time I wanted to be able to time how long different
-      sections of a program were taking.  (This is also known as
-      <dfn>profiling</dfn> the code.)  So I wrote a method which takes
-      the time before running the code, then it runs it, then it takes
-      the time again at the end and figures out the difference.  I can't
-      find the code right now, but I don't need it; it probably
-      went something like this:
+      Recuerdo que una vez quería poder medir cuanto tiempo estaba utilizando
+      cada parte del programa. (Esto es conocido también como <dfn>perfil</dfn>
+      de código.) Entonces escribí un método que tomaba el tiempo antes de 
+      correr el código, luego corría este código, y luego tomaba el tiempo de 
+      nuevo al final de esta ejecución de código para darme cuenta de la diferencia
+      de tiempo entre inicio y fin. No puedo encontrar el código ahora, pero no 
+      necesito esto; este fue probablemente algo así:
       END_PARAGRAPH
     end
     prog do <<-END_CODE

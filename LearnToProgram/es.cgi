@@ -4313,18 +4313,16 @@ class LearnToProgramTutorial
       tengo que mantener todo en un solo lugar, y (más importante aun)fuera de mi camino!
       END_PARAGRAPH
     end
-    h2 {'A Few Things to Try'}
+    h2 {'Algo para probar'}
     para do <<-END_PARAGRAPH
-      &bull; <em>Grandfather Clock</em>.  Write a method which takes a block
-      and calls it once for each hour that has passed today.  That way, if I
-      were to pass in the block #{code "do puts 'DONG!' end"}, it would chime
-      (sort of) like a grandfather clock.  Test your method
-      out with a few different blocks (including the one I just gave you).
-      <em><strong>Hint:</strong>  You can use
-      </em>#{code 'Time.now.hour'}<em> to get the current hour.
-      However, this returns a number between </em>#{code '0'}<em> and </em>#{code '23'}<em>,
-      so you will have to alter those numbers in order to get ordinary clock-face
-      numbers (</em>#{code '1'}<em> to </em>#{code '12'}<em>).</em>
+      &bull; <em>Grandfather Clock</em>. Escribe un método que tome un bloque y llame a esta
+      una vez cada hora. De esta forma, si pase en el bloque  #{code "do puts 'DONG!' end"},
+      esta sería la campana(algo así) de un reloj péndulo. Testea el método con unos bloques
+      (incluídos el que te he dado). <em><strong>Sugerencia:</strong> Puedes usar 
+      </em>#{code 'Time.now.hour'}<em> para obtener la hora actual. Aunque, este retorna un
+      número entre </em>#{code '0'}<em> y </em>#{code '23'}<em>, entonces tendrás que alterar
+      estos números para tener un vista normal de números (</em>#{code '1'}<em> a 
+      </em>#{code '12'}<em>).</em>
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

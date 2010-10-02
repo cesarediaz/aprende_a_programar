@@ -1908,9 +1908,8 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Often, we would like a program to do one thing if an expression
-      is #{code 'true'}, and another if it is #{code 'false'}.  That's
-      what #{code 'else'} is for:
+      A menudo, nos gustaría hacer una cosa si una expresión es #{code 'true'},  y otra 
+      si esto es #{code 'false'}. Esto es para lo que sirve el código #{code 'else'}:
       END_PARAGRAPH
     end
     run1 = {:input => ['Chris']}
@@ -1927,6 +1926,10 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
+      Ramificar es algo como un fork en el código: Tomaremos 
+      el camino para gente que #{code "name == 'Chris'"},
+      o por #{code 'else'} tomaremos el otro camino?
+
       Branching is kind of like coming to a fork in the code:  Do
       we take the path for people whose #{code "name == 'Chris'"},
       or #{code 'else'} do we take the other path?

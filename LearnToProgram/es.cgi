@@ -1875,10 +1875,10 @@ class LearnToProgramTutorial
       #{code 'true'} y #{code 'false'} son utilizados todo el tiempo en ...
       END_PARAGRAPH
     end
-    h2 {'Branching'}
+    h2 {'Branching(Ramificación)'}
     para do <<-END_PARAGRAPH
-      Branching is a simple concept, but powerful.  In fact, it's so simple
-      that I bet I don't even have to explain it at all; I'll just show you:
+      Ramificación es un simple comcepto, pero muy útil. De hecho, est es tan simple
+      que no debería tener que explicarlo; solo voy a mostrarlo:
       END_PARAGRAPH
     end
     run1 = {:input => ['Chris']}
@@ -1893,10 +1893,10 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      And that is branching.  If what comes after the #{code 'if'} is
-      #{code 'true'}, we run the code between the
-      #{code 'if'} and the #{code 'end'}.  If what comes after the
-      #{code 'if'} is #{code 'false'}, we don't.  Plain and simple.
+      Y esto es una ramificación. Si lo que llega después de #{code 'if'} es
+      #{code 'true'}, ejecutamos el código entre el #{code 'if'}  y el  #{code 'end'}. 
+      Si lo que viene después de el #{code 'if'} es #{code 'false'}, no lo hacemos.
+      Simple.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

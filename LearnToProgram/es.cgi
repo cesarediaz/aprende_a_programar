@@ -1932,8 +1932,8 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      And just like the branches of a tree, you can have branches
-      which themselves have branches:
+      Y como las ramas de un árbol, puedes tener ramas las cuáles pueden
+      tener otras ramas:
       END_PARAGRAPH
     end
     run1 = {:input => ['chris', 'yes']}

@@ -1823,9 +1823,8 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      No problem.  Likewise, we can find out if an object is
-      greater-than-or-equal-to another (or less-than-or-equal-to)
-      with the methods #{code '>='} and #{code '<='}
+      Ningún problema. Del mismo modo, podemos encontrar si un objeto es mayor-que-o-igual-a otro (o 
+      menor-que-o-igual-a) con los metodos #{code '>='} y #{code '<='}
       END_PARAGRAPH
     end
     prog do <<-END_CODE
@@ -1834,13 +1833,12 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      And finally, we can see if two objects are equal or not
-      using #{code '=='} (which means "are these equal?")
-      and #{code '!='} (which means "are these different?").
-      It's important not to confuse #{code '='} with #{code '=='}.
-      #{code '='} is for telling a variable to point at an object
-      (assignment), and #{code '=='} is for asking the question:  "Are
-      these two objects equal?"
+      Y finalmente, podemos ver si dos objetos son igual o no 
+      usando  #{code '=='} (el que significa "son estos iguales?")
+      Es importante no confundir  #{code '='} con  #{code '=='}.
+      #{code '='} es para decir a una variable que apunte a un objeto
+      (asignación), y  #{code '=='} es para armar esta pregunta: "Son
+      estos dos objetos iguales?"
       END_PARAGRAPH
     end
     prog do <<-END_CODE

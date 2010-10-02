@@ -3973,7 +3973,7 @@ class LearnToProgramTutorial
     end
     para do <<-END_PARAGRAPH
       En realidad, esto es más que métodos que he mostrado, porque los bloques pueden
-      tomar parametros:
+      tomar parámetros:
       END_PARAGRAPH
     end
     prog do <<-END_CODE
@@ -4001,7 +4001,7 @@ class LearnToProgramTutorial
     end
     h2 { 'Methods Which Take Procs' }
     para do <<-END_PARAGRAPH
-      Cuando pasamos un proc en un un metodo, podemos controlar como, o cuantas veces llamamos
+      Cuando pasamos un proc en un un método, podemos controlar como, o cuantas veces llamamos
       el proc. Por ejemplo, vamos a decir que queremos hacer antes y después que cierto código
       se esta ejecutando:
       END_PARAGRAPH
@@ -4027,22 +4027,22 @@ class LearnToProgramTutorial
     end
     para do <<-END_PARAGRAPH
       Quizás esto no parezca muy fabulozo... pero lo es. :-)
-      Es común en programacion tener requerimientos estrictos acerca de 
-      que debe ser hecho y cuando. Si quieres salvar un archivo, por ejemplo,
-      tienes que abrir el archivo, escribir la informacion que quieres que 
+      Es común en programación tener requerimientos estrictos acerca de 
+      que debe ser hecho y cuando. Si quieres guardar un archivo, por ejemplo,
+      tienes que abrir el archivo, escribir la información que quieres que 
       contenga este, y luego cerrar el archivo. Si olvidas cerrar el archivo, 
-      Puede Tener malas consecuencias. Pero cada vez que quieras salvar un archivo
+      Puede Tener malas consecuencias. Pero cada vez que quieras guardar un archivo
       o cargar uno, tu tienes que hacer lo mismo: abrir el archivo, hacer lo que
       <em>realmente</em> quieres hacer , luego cerrar el archivo. Esto es tedioso
       y facil de olvidar. En Ruby, guardando (o cargando) archivos trabaja similar
       al codigo anterior, entonces no tienes que preocuparte por nada más que por
-      lo que quieres guardar(o subir). (En el próximo capitulo mostrare donde 
-      encontrar info sobre guardar y cargar archivos.)
+      lo que quieres guardar(o subir). (En el próximo capítulo mostrare donde 
+      encontrar información sobre guardar y cargar archivos.)
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      También pudes escribir metodos los cuales cuantas veces, o incluso <em>sí</em>
-      llamar a un proc. Aquí hay un metodo el cual llama a un proc pasado en la mitad
+      También pudes escribir métodos los cuales cuantas veces, o incluso <em>sí</em>
+      llamar a un proc. Aquí hay un método el cual llama a un proc pasado en la mitad
       de tiempo, y otro el cual sera llamara a este dos veces:
       END_PARAGRAPH
     end
@@ -4075,19 +4075,19 @@ class LearnToProgramTutorial
     para do <<-END_PARAGRAPH
       (Si recargas esta pagina un par de veces, veras que la salida cambiara.) Estos son
       algunos de los casos comunes de uso de procs lo que le permite hacer cosas utilizando
-      simplemente metodos no podriamos hacerlo. Seguramente, podrías escribir un metodo para
+      simplemente métodos no podriamos hacerlo. Seguramente, podrías escribir un método para
       hacer algo dos veces, pero no podías escribir uno que haga <em>algo</em> dos veces!
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
       Antes de continuar, vamos a ver un último ejemplo. Los procs que 
       hemos visto son bastante similares. Es tiempo de ver algo diferente, 
-      entonces vamos a ver cuanto un metodo depende de un proc pasado a este.
-      Nuestro metodo tomara algun objeto y un proc, y llamara a este proc 
+      entonces vamos a ver cuanto un método depende de un proc pasado a este.
+      Nuestro método tomara algun objeto y un proc, y llamara a este proc 
       sobre este objeto. Si el proc retorna falso, finalizamos; en otro caso
       llamaremos al proc con el objeto. Continuaremos haciendo esto hasta
       que el proc retorne falso(esto es mejor, o el programa finalizara con 
-      error). El metodo retornara el último valor no falso retornado por 
+      error). El método retornara el último valor no falso retornado por 
       el proc.
       END_PARAGRAPH
     end
@@ -4125,7 +4125,7 @@ class LearnToProgramTutorial
     end
     para do <<-END_PARAGRAPH
       Esta bien, este es un ejemplo bastante raro, debo admitirlo. Pero esto mustra como 
-      actua diferente nuetro metodo cuando le damos diferentes procs.
+      actua diferente nuetro método cuando le damos diferentes procs.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
@@ -4143,8 +4143,8 @@ class LearnToProgramTutorial
     h2 { 'Methods Which Return Procs' }
     para do <<-END_PARAGRAPH
       Una de las mejores cosas que puedes hacer con procs es crearlos
-      en metodos y devolverlos. Esto permite todo tipo de interesante 
-      poder de programacion(cosas con nombres interesantes, como
+      en métodos y devolverlos. Esto permite todo tipo de interesante 
+      poder de programación(cosas con nombres interesantes, como
       <dfn>evaluacion peresoza</dfn>, <dfn>estructura infinita de datos</dfn>, y
       <dfn>endurecer</dfn>), pero el hecho es que yo casi nunca pongo esto en 
       práctica, o no puedo recordar a nadie más haciendo esto en su codigo.
@@ -4221,7 +4221,7 @@ class LearnToProgramTutorial
       END_CODE
     
     Array.module_eval arrayClassHack  #  Esto es una definicion real de método.
-    #  The following defines a method in "another" array class:
+    #  Lo siguiente define un método en "otra" clase array:
     #  END HACK ALERT!!!
     prog do <<-END_CODE
       class Array
@@ -4247,7 +4247,7 @@ class LearnToProgramTutorial
       a un método de este modo, aunque muchos métodos solo ingoraran el bloque.
       Para hacer que el método <em>no</em> ignore el bloque, pero tomen este y
       lo conviertan en un proc, hay que poner el nombre del proc al final de 
-      la lista de parametros, precedidos por un un ampersand (#{code '&'}). 
+      la lista de parámetros, precedidos por un un ampersand (#{code '&'}). 
       Entonces esta parte es un pequeño truco, no tan malo, y solo tienes que 
       hacer esto una vez(cuando definas el método). Luego puedes usar el método
       una y otra vez, tal como métodos que toman bloques, como  #{code 'each'}

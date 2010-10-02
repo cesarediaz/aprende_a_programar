@@ -1858,14 +1858,13 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      There's a catch, though:  the way computers usually do things,
-      they order capital letters as coming before lowercase letters.
-      (That's how they store the letters in fonts, for example:
-      all the capital letters first, then the lowercase ones.)
-      This means that it will think #{code "'Zoo'"} comes before #{code "'ant'"}, so if you
-      want to figure out which word would come first in a real dictionary,
-      make sure to use #{code 'downcase'} (or #{code 'upcase'} or
-      #{code 'capitalize'}) on both words before you try to compare them.
+      Sin embargo, hay un inconveniente: la forma en que las computadoras
+      generalmente hacen las cosas, ellas ordenan letras mayúsculas antes que las minúsculas.
+      (Esto es como ellas guardan las letras en fuentes, por ejemplo):
+      todas las letras mayúsculas primero, luego las minúsculas.)
+      Esto significa que podríamos pensar que #{code "'Zoo'"} viene antes que #{code "'ant'"}, entonces 
+      tienes que asegurarte de utilizar #{code 'downcase'} (o #{code 'upcase'} o #{code 'capitalize'}) 
+      sobre ambas palabras antes de tratar de comparar.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

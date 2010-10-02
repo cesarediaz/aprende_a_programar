@@ -4282,7 +4282,7 @@ class LearnToProgramTutorial
         
         duration = Time.now - startTime
         
-        puts descriptionOfBlock+':  '+duration.to_s+' seconds'
+        puts descriptionOfBlock+':  '+duration.to_s+' segundos'
       end
       
       profile '25000 doublings' do
@@ -4292,7 +4292,7 @@ class LearnToProgramTutorial
           number = number + number
         end
         
-        puts number.to_s.length.to_s+' digits'  #  That is, the number of digits in this HUGE number.
+        puts number.to_s.length.to_s+' digits'  #  Esto es, el número de digitos en este GRAN número.
       end
       
       profile 'count to a million' do

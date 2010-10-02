@@ -4366,17 +4366,16 @@ class LearnToProgramTutorial
           '..."outer block" finished, returning:  true' + $/ +
           '</pre>'
     para do <<-END_PARAGRAPH
-      Well, that's about all you're going to learn from this tutorial.
-      Congratulations!  You've learned a <em>lot</em>!  Maybe you don't feel
-      like you remember everything, or you skipped over some parts... really,
-      that's just fine.  Programming isn't about what you know; it's about
-      what you can figure out.  As long as you know where to find out the
-      things you forgot, you're doing just fine.  I hope you don't think
-      that I wrote all of this without looking things up every other minute!
-      Because I did.  I also got a lot of help with the code which runs all
-      of the examples in this tutorial.  But where was <em>I</em> looking
-      stuff up, and who was <em>I</em> asking for help?
-      #{makeLink 'Let me show you...', :generateBeyond}
+      Bueno, esto est todo lo que aprenderas desde este tutorial. Felicitaciones! 
+      Has aprendido <em>mucho</em>! Quizás sientes que no recueerdas todo, o has 
+      salteado algunas partes... , esta bien. Programar no es solo lo que sabes; 
+      es también cuanto puedes resolver y darte cuenta de como hacerlo. Simplemente
+      con que sepas donde buscar información sobre cosas que olvidaste, eso esta bien.
+      Espero qeu no pienses que escribí todo esto sin mirar algunas cosas a cada minuto!
+      Lo hice. También tuve mucha ayuda con el código que use en todos los ejemplos de este
+      tutorial. Pero donde estuve <em>yo</em> mirando cosas, y a quien estuve <em>yo</em>
+      pidiendo por alguna ayuda? 
+      #{makeLink 'Deja que te muestre...', :generateBeyond}
       END_PARAGRAPH
     end
   end

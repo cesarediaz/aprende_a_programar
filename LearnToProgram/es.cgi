@@ -4305,13 +4305,12 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      How simple!  How elegant!  With that tiny method,
-      I can now easily time any section of any program that I want to; I
-      just throw the code in a block and send it to #{code 'profile'}.
-      What could be simpler?  In most languages, I would have to explicitly
-      add that timing code (the stuff in #{code 'profile'}) around every
-      section which I wanted to time.  In Ruby, however, I get to keep it
-      all in one place, and (more importantly) out of my way!
+      Que simple! Que elegante! Con este pequeño método.
+      Puedo ahora facilmente medir cualquier sección de cualquier programa que quiera;
+      Puedo lanzar este código en un bloque y lo enviará a profile. Que mas simple que esto?
+      En la moyoría de los lenguages, debería explicitamente agregar el código temporizador
+      (lo que hay en #{code 'profile'}) en cada sección que quiero medir. En Ruby, sin embargo,
+      tengo que mantener todo en un solo lugar, y (más importante aun)fuera de mi camino!
       END_PARAGRAPH
     end
     h2 {'A Few Things to Try'}

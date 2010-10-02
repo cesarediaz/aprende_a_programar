@@ -1900,13 +1900,11 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      I indented the code between the #{code 'if'} and the #{code 'end'}
-      just because I think it's easier to keep track of the
-      branching that way.  Almost all
-      programmers do this, regardless of what language they are
-      programming in.  It may not seem much help in this simple
-      example, but when things get more complex, it makes a big
-      difference.
+      Idente el código entre el #{code 'if'} y el #{code 'end'}
+      porque pienso que es más fácil seguir la ramificación de esa manera. Casi todos 
+      los programadores hacen esto, sin tener en cuenta de que lenguaje esten programando.
+      Esto puede parece que no es de mucha ayuda en este simple ejemplo, pero cuando
+      las cosas son más complejas, esto hace una gran diferencia.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

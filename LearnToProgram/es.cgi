@@ -1800,15 +1800,13 @@ class LearnToProgramTutorial
   
   def generateFlowControl
     para do <<-END_PARAGRAPH
-      Ahhhh, flow control.  This is where it all comes together.  Even though
-      this chapter is shorter and easier than the #{makeLink 'methods', :generateMethods}
-      chapter, it will open up a whole world of programming possibilities.
-      After this chapter, we'll be able to write truly interactive
-      programs; in the past we have made programs which <em>say</em> different
-      things depending on your keyboard input, but after this chapter
-      they will actually <em>do</em> different things, too.  But
-      before we can do that, we need to be
-      able to compare the objects in our programs.  We need...
+      Ahhhh, control de flujo. Esto es donde todo se junta. Creo que este capítulo es más corto 
+      y fácil que el capítulo #{makeLink 'methods', :generateMethods}, este le abrira un mundo entero
+      de posibilidades de programación. Después de este capítulo, seremos capaces de escribir programas
+      realmente interactivos; antes hicimos programas los cuales <em>decían</em> diferentes cosas
+      dependiendo del la entrada de teclado, pero después de este capítulo estos <em>haran</em> en realidad
+      diferentes cosas. Pero antes podamos hacer esto, nosotros necesitamos poder comaparar objetos en 
+      nuestros programas. Necesitamos....
       END_PARAGRAPH
     end
     h2 {'Comparison Methods'}

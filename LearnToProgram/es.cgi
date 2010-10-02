@@ -4326,14 +4326,13 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      &bull; <em>Program Logger</em>.  Write a method called #{code 'log'}, which
-      takes a string description of a block and, of course, a block.  Similar to
-      #{code 'doSelfImportantly'}, it should #{code 'puts'} a string telling
-      that it has started the block, and another string at the end telling you
-      that it has finished the block, and also telling you what the block returned.
-      Test your method by sending it a code block.  Inside the block, put <em>another</em>
-      call to #{code 'log'}, passing another block to it.  (This is called
-      <dfn>nesting</dfn>.)  In other words, your output should look something like this:
+      &bull; <em>Programa de Log</em>. Escribe un método llamado #{code 'log'}, el cuál
+      tome un string descripción de un bloque, y por supuesto, un bloque. Similar a 
+      #{code 'doSelfImportantly'}, este deberá #{code 'puts'}(poner) un string diciendo que 
+      este comenzo el bloque, y otro string al final diciendote que ha finalizado el bloque,
+      y también diciendote que retorno el bloque. Dentro del bloque,  pon <em>otro</em> llamando
+      a  #{code 'log'}, pasando otro dentro de este. (Esto es llamado <dfn>anidación</dfn>.) En 
+      otras palabras, la salida debera parecerse a lo siguiente:
       END_PARAGRAPH
     end
     puts '<pre class="L2PoutputBlock">' +

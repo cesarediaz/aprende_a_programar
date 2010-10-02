@@ -1929,10 +1929,6 @@ class LearnToProgramTutorial
       Ramificar es algo como un fork en el código: Tomaremos 
       el camino para gente que #{code "name == 'Chris'"},
       o por #{code 'else'} tomaremos el otro camino?
-
-      Branching is kind of like coming to a fork in the code:  Do
-      we take the path for people whose #{code "name == 'Chris'"},
-      or #{code 'else'} do we take the other path?
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

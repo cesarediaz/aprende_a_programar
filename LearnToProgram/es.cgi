@@ -1868,12 +1868,11 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      One last note before <strong>Branching</strong>:  The comparison
-      methods aren't giving us the strings #{code "'true'"} and
-      #{code "'false'"}; they are giving us the special objects #{code 'true'} and
-      #{code 'false'}.  (Of course, #{code 'true.to_s'} gives us
-      #{code "'true'"}, which is why #{code 'puts'} printed #{code "'true'"}.)
-      #{code 'true'} and #{code 'false'} are used all the time in...
+      Una última nota antes de llegar a <strong>Branching(ramificación)</strong>: 
+      Los métodos de comparación no nos dan los strings #{code "'true'"} y 
+      #{code "'false'"}. (Por supuesto, #{code 'true.to_s'} nos da  #{code "'true'"},
+      lo cual se da porque #{code 'puts'} imprimió #{code "'true'"}.)
+      #{code 'true'} y #{code 'false'} son utilizados todo el tiempo en ...
       END_PARAGRAPH
     end
     h2 {'Branching'}

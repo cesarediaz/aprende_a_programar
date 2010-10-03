@@ -2042,9 +2042,8 @@ class LearnToProgramTutorial
     end
     h2 {'Looping'}
     para do <<-END_PARAGRAPH
-      Often, you'll want your computer to do the same thing over and
-      over again&mdash;after all, that's what computers are supposed to
-      be so good at.
+      A menudo, querras que tu computadora haga lo mismo una y otra vez; 
+      después de todo, para esto es lo que se supone que las computadoras son buenas también.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

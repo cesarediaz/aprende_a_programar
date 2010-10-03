@@ -1977,8 +1977,8 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Then I filled it in with <dfn>comments</dfn>, stuff
-      in the code the computer will ignore:
+      Luego llene esto con <dfn>comentarios</dfn>, cosas
+      en el código que la computadora ignorara:
       END_PARAGRAPH
     end
     prog false do <<-END_CODE

@@ -1959,12 +1959,11 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Sometimes it might get confusing trying to figure out
-      where all of the #{code 'if'}s, #{code 'else'}s, and
-      #{code 'end'}s go.  What I do is write the #{code 'end'}
-      <em>at the same time</em> I write the #{code 'if'}.  So
-      as I was writing the above program, this is how it looked
-      first:
+      Algunas veces esto puede ser confuso tratar de darse cuenta 
+      donde ese código #{code 'if'}, #{code 'else'}, y  #{code 'end'} van.
+      Lo que yo hago es escribir el código #{code 'end'} <em>al mismo tiempo</em>
+      que escribo el #{code 'if'}. Entonces como estaba escribiendo el programa antes,
+      así es como se vería al principio:
       END_PARAGRAPH
     end
     prog false do <<-END_CODE

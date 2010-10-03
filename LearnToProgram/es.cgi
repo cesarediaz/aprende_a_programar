@@ -2193,18 +2193,14 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      &bull; Leap Years.  Write a program which will ask for
-      a starting year and an ending year, and then #{code 'puts'}
-      all of the leap years between them (and including them,
-      if they are also leap years).  Leap years are years divisible
-      by four (like 1984 and 2004).  However, years divisible
-      by 100 are <em>not</em> leap years (such as 1800 and
-      1900) <strong><em>unless</em></strong> they are divisible
-      by 400 (like 1600 and 2000, which were in fact leap years).
-      <em>(Yes, it's all pretty
-      confusing, but not as confusing has having July in the
-      middle of the winter, which is what would eventually
-      happen.)</em>
+      &bull; Años bisiestos. Escribe un programa el cual preguntara un año por el que 
+      comenzar y otro de finalización. y entonces #{code 'puts'}(imprima) todos los
+      años bisiestos entre ellos (incluso incluidos los años de comienzo y final).
+      Los años bisiestos son años divisibles por cuatro (como 1984 y 2004). Sin embargo, 
+      los años divisibles por 100 <em>no</em> son bisiestos (tal como 1800 y 1900)
+      <strong><em>a menos</em></strong> que sean divisibles por 400 (como 1600 y 2000, los
+      cuales son bisiestos de hecho). <em>(Sí, esto es bastante confuso, peron no tan confuso
+      como tener Julio en el medio del invierno, lo que podrá eventualmente suceder.)</em>
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

@@ -1117,9 +1117,9 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Similarly, #{code 'to_i'} gives the integer version of an object,
-      and #{code 'to_f'} gives the float version.  Let's look at what
-      these three methods do (and <em>don't</em> do) a little more closely:
+      De forma similar, #{code 'to_i'} nos da la versión integer de un objeto,
+      y #{code 'to_f'} nos da la versión punto flotante. Vamos a ver más de
+      cerca que hacen (y <em>que no</em> hacen):
       END_PARAGRAPH
     end
     prog do <<-END_CODE

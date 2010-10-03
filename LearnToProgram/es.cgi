@@ -2155,15 +2155,12 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      The only one of these which might trick you is
-      #{code 'or'}.  In English, we often use "or" to mean
-      "one or the other, but not both."  For example, your
-      mom might say, "For dessert, you can have pie or cake."
-      She did <em>not</em> mean you could have them both!
-      A computer, on the other hand, uses #{code 'or'} to mean "one or the other,
-      or both."  (Another way of saying it is, "at least one of
-      these is true.")  This is why computers are more fun than
-      moms.
+      El único de estos que puede engañarte es #{code 'or'}. En inglés, nosotros a
+      menudo usamos "or" para decir "uno u otro, pero no ambos." Por ejemplo, tu 
+      madre dice, "Para el postre, puedes tener pastel o torta." Ellas <em>no</em> 
+      quiere decir que podrías tener ambos! Una computadora, por otro lado, usa #{code 'or'} 
+      para decir "uno u otro, o ambos." (Otra forma de decir esto es, "al menos uno de estos
+      dos es verdad.") Por esta razón es que las computadoras son mas divertidas que las madres('Humor inglés').
       END_PARAGRAPH
     end
     h2 {'A Few Things to Try'}

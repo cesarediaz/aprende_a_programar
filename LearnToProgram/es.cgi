@@ -2212,7 +2212,7 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Ahora bamso a aprender un nuevo tipo de objeto, un que puede contener una lista
+      Ahora vamos a aprender un nuevo tipo de objeto, un que puede contener una lista
       de objetos:      
       #{makeLink 'arrays', :generateArrays}.
       END_PARAGRAPH

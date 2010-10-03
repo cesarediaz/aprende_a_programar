@@ -1074,10 +1074,9 @@ class LearnToProgramTutorial
   
   def generateConversion
     para do <<-END_PARAGRAPH
-      We've looked at a few different kinds of objects
-      (#{makeLink 'numbers', :generateNumbers} and #{makeLink 'letters', :generateLetters}),
-      and we made #{makeLink 'variables', :generateVariables} to point to them;
-      the next thing we want to do is to get them all to play nicely together.
+      Hemos visto unos pocos tipos de objetos (#{makeLink 'numbers', :generateNumbers} y
+      #{makeLink 'letters', :generateLetters}), y hicimos #{makeLink 'variables', :generateVariables}
+      para apuntar a estos; lo siguiente que queremos hacer es que todos ellos trabajen juntos.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

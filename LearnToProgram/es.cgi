@@ -2074,16 +2074,15 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Loops allow you to do all kinds of interesting things, as I'm sure
-      you can imagine.  However, they can also cause problems if you
-      make a mistake.  What if your computer gets trapped in an infinite
-      loop?  If you think this may have happened, just hold down the
-      <kbd>Ctrl</kbd> key and press <kbd>C</kbd>.
+      Loops permiten hacer todo un montón de cosas interesantes, como estoy seguro
+      que te puedes imaginar. Aunque, estos pueden también causar problemas si tienes
+      un error. Que pasa si tu computadora queda atrapada en un loop infinito? Si
+      piensas que esto ha sucedido, solo oprime <kbd>Ctrl</kbd> y <kbd>C</kbd>.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Before we start playing around with loops, though,
-      let's learn a few things to make our job easier.
+      Antes que empecemos a jugar un poco con loops, pienso, debemos aprender 
+      que haran tu trabajo más fácil.
       END_PARAGRAPH
     end
     h2 {'A Little Bit of Logic'}

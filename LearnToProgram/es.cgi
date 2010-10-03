@@ -2184,13 +2184,12 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      &bull; Extend your Deaf Grandma program:  What if grandma
-      doesn't want you to leave?  When you shout #{input 'BYE'}, she
-      could pretend not to hear you.  Change your previous
-      program so that you have to shout #{input 'BYE'} three times
-      <em>in a row</em>.  Make sure to test your program:
-      if you shout #{input 'BYE'} three times, but not in a row, you
-      should still be talking to grandma.
+      &bull; Extiende el programa para la abuela: Que pasa si la abuela
+      no quiere dejarte ir? Cuando tu gritas #{input 'ADIOS'}, ella simula
+      no oirte. Cambia tu programa anterior para que tengas que gritar #{input 'ADIOS'}
+      tres veces <em>en una linea</em>. Asegurate de testear el programa: si gritas
+      tres veces #{input 'ADIOS'}, pero no en una misma linea, debes continuar
+      hablando con la abuela.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

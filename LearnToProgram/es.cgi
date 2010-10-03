@@ -2204,17 +2204,16 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      When you finish those, take a break!  You've learned a lot
-      already.  Congratulations!  Are you surprised at the number
-      of things you can tell a computer to do?  A few more chapters
-      and you'll be able to program just about anything.  Seriously!
-      Just look at all the things you can do now that you couldn't
-      do without looping and branching.
+      Cuando finalices estos estos, descansa un poco! Has aprendido un mucho ya. 
+      Felicitaciónes!. Estas sorprendido por la cantidad de cosas que le puedes
+      decir a una computadora que haga? Un par más de capítulos y seras capaz 
+      cualquier cosa. En serio! Solo mira todas las cosas que puedes hacer ahora 
+      que no podías antes sin bucles y ramificaciónes.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Now let's learn about a new kind of
-      object, one which keeps track of lists of other objects:
+      Ahora bamso a aprender un nuevo tipo de objeto, un que puede contener una lista
+      de objetos:      
       #{makeLink 'arrays', :generateArrays}.
       END_PARAGRAPH
     end

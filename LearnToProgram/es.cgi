@@ -2024,19 +2024,15 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Again, I wrote down the #{code 'if'}, #{code 'else'}, and
-      #{code 'end'} all at the same time.  It really helps me keep
-      track of "where I am" in the code.  It also makes the job
-      seem easier because I can focus on one small part, like
-      filling in the code between the #{code 'if'} and the
-      #{code 'else'}.  The other benefit of doing it this way
-      is that the computer can understand the program at any
-      stage.  Every one of the unfinished versions of the
-      program I showed you would run.  They weren't finished,
-      but they were working programs.  That way I could test it
-      as I wrote it, which helped to see how it was coming along
-      and where it still needed work.  When it passed all
-      of the tests, that's how I knew I was done!
+      Otra vez, escribí el #{code 'if'}, #{code 'else'}, y
+      #{code 'end'} todo al mismo tiempo. Esto realmente me ayuda a 
+      ubicarme "donde estoy" en el código. Esto también hace que el trabajo
+      parezca fácil porque me puedo enfocar en una pequeña parte, como
+      llenando el código entre el #{code 'if'} y el #{code 'else'}. El otro beneficio de hacer esto de esta manera 
+      es que la computadora entiende el programa en cualquier punto. Cada una de las versiónes no finalizadas de el 
+      programa que mostré puede ser ejecutado. Estas no estaban terminadas, pero estaban trabajando igual. De esta manera
+      puedo testear los programas así como los escribí, lo que ayuda a ver como va desarrollandose y donde necesita más
+      trabajo. Cuando pasa todos los tests, esta es la forma como supe que había finalizado!
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

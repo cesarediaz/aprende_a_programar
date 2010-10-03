@@ -1080,9 +1080,8 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      We've seen that if we want a program to print #{output '25'}, the following
-      <em>does <strong>not</strong></em> work, because you can't add
-      numbers and strings:
+      Hemos visto que si queremos que un programa imprima #{output '25'}, lo siguiente 
+      <em><strong>no</strong></em> funcionara, porque no puedes sumar números y strings:
       END_PARAGRAPH
     end
     prog false do <<-END_CODE
@@ -1093,9 +1092,9 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Part of the problem is that your computer doesn't know if you
-      were trying to get #{output '7'} (#{code '2 + 5'}), or if you wanted
-      to get #{output '25'} (#{code "'2' + '5'"}).
+      Parte del problema es que tu computadora no sabe si tu quieres obtener
+      como salida #{output '7'} (#{code '2 + 5'}) o si quieres obtener 
+      #{output '25'} (#{code "'2' + '5'"}).
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

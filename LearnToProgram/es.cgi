@@ -1098,15 +1098,15 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Before we can add these together, we need some way of getting the
-      string version of #{code 'var1'}, or to get the integer version
-      of #{code 'var2'}.
+      Antes de poder sumar estos juntos, necesitamos alguna forma the obtener
+      la versión string de #{code 'var1'}, o obtener la versión integer de 
+      #{code 'var2'}.
       END_PARAGRAPH
     end
-    h2 {'Conversions'}
+    h2 {'Conversiones'}
     para do <<-END_PARAGRAPH
-      To get the string version of an object, we simply write
-      #{code '.to_s'} after it:
+      Para obtener la versión string de un objeto, simplemente escribimos
+      #{code '.to_s'} después de este:
       END_PARAGRAPH
     end
     prog do <<-END_CODE

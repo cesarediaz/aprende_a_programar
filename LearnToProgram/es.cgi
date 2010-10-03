@@ -2066,7 +2066,7 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Y esto es un loop. (Te habras dado cuenta de la linea en blanco al 
+      Y esto es un bucle(loop). (Te habras dado cuenta de la linea en blanco al 
       comienzo de la salida; esto es desde el primer #{code 'puts'}, antes 
       del primer #{code 'gets'}. Como podrías cambiar el programa para 
       tomar el control de esta primer linea. Testea eso! Funciono <em>exactamente</em>
@@ -2074,14 +2074,14 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Loops permiten hacer todo un montón de cosas interesantes, como estoy seguro
+      Los bucles permiten hacer todo un montón de cosas interesantes, como estoy seguro
       que te puedes imaginar. Aunque, estos pueden también causar problemas si tienes
-      un error. Que pasa si tu computadora queda atrapada en un loop infinito? Si
+      un error. Que pasa si tu computadora queda atrapada en un bucle infinito? Si
       piensas que esto ha sucedido, solo oprime <kbd>Ctrl</kbd> y <kbd>C</kbd>.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Antes que empecemos a jugar un poco con loops, pienso, debemos aprender 
+      Antes que empecemos a jugar un poco con bucles, pienso, debemos aprender 
       que haran tu trabajo más fácil.
       END_PARAGRAPH
     end
@@ -2180,7 +2180,7 @@ class LearnToProgramTutorial
       grites #{input 'ADIOS'}.<br /> <em><strong>Consejo:</strong> No olvides que </em>#{code 'chomp'}<em>!  
       </em>#{code "'ADIOS'"}<em> con un Enter no es lo mismo que </em>#{code "'ADIOS'"}<em> sin ENTER!</em><br />
       <em><strong>Sugerencia 2:</strong> Trata de pensar que partes de tu programa se repetiran varias veces.
-      Todo esto debería estar en el </em>#{code 'while'}<em> loop.</em>
+      Todo esto debería estar en el </em>#{code 'while'}<em> bucle.</em>
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

@@ -2066,11 +2066,11 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      And that's a loop.  (You may have noticed the blank line at the
-      beginning of the output; it's from the first #{code 'puts'}, before
-      the first #{code 'gets'}.  How would you change the program to get
-      rid of this first line.  Test it!  Did it work <em>exactly</em>
-      like the program above, other than that first blank line?)
+      Y esto es un loop. (Te habras dado cuenta de la linea en blanco al 
+      comienzo de la salida; esto es desde el primer #{code 'puts'}, antes 
+      del primer #{code 'gets'}. Como podrías cambiar el programa para 
+      tomar el control de esta primer linea. Testea eso! Funciono <em>exactamente</em>
+      como el programa anterior, pero otra cosa en vez de la linea en blanco?)
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

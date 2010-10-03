@@ -2085,12 +2085,12 @@ class LearnToProgramTutorial
       que haran tu trabajo más fácil.
       END_PARAGRAPH
     end
-    h2 {'A Little Bit of Logic'}
+    h2 {'Un poco de lógica'}
     para do <<-END_PARAGRAPH
-      Let's take a look at our first branching program again.  What if
-      my wife came home, saw the program, tried it out, and it didn't
-      tell her what a lovely name <em>she</em> had?  I wouldn't want to
-      hurt her feelings (or sleep on the couch), so let's rewrite it:
+      Vamos a ver nuestro primer programa de ramificación otra vez. Que si 
+      mi esposa viene a casa, ve el programa, lo prueba, y este no le dice
+      que tiene un nombre hermoso? No me gustaría herir sus sentimientos
+      (o dormir en el sofá), entonces vamos a reescribirlo:
       END_PARAGRAPH
     end
     prog ['Katy'] do <<-END_CODE

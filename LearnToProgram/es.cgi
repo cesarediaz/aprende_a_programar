@@ -1994,16 +1994,15 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Anything after a #{code '#'} is
-      considered a comment (unless, of course, you
-      are in a string).  After that, I replaced the comments
-      with working code.  Some people like to leave the comments
-      in; personally, I think well-written code usually speaks
-      for itself.  I used to use more comments, but the more
-      "fluent" in Ruby I become, the less I use them.  I actually
-      find them distracting much of the time.  It's a personal
-      choice; you'll find your own (usually evolving) style.
-      So my next step looked like this:
+      Cualquier cosa después de #{code '#'}  es considerado un comentario
+      (a menos, porsupuesto, que estes trabajando con un string). Después de esto,
+      reemplacé los comentarios con código que trabaja. A algunas personas le gusta
+      dejar los comentarios; personalmente, pienso que código bien escrito habla
+      por si mismo. Solía utilizar más comentarios, pero cuando más "experimentado"
+      en Ruby, menos necesite usarlos. En realidad los encuentro algo distractivos
+      la mayoría del tiempo. Esta es una decisión personal; tu puedes tu propio 
+      estilo.
+      Así que mi siguiente paso sera lo siguiente: 
       END_PARAGRAPH
     end
     prog false do <<-END_CODE

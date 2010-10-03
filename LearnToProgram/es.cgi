@@ -2163,33 +2163,24 @@ class LearnToProgramTutorial
       dos es verdad.") Por esta razón es que las computadoras son mas divertidas que las madres('Humor inglés').
       END_PARAGRAPH
     end
-    h2 {'A Few Things to Try'}
+    h2 {'Algo para probar'}
     para do <<-END_PARAGRAPH
-      &bull; <em>"99 bottles of beer on the wall..."</em>  Write a program
-      which prints out the lyrics to that beloved classic, that
-      field-trip favorite: "99 Bottles of Beer on the Wall."
+      &bull; <em>"99 botellas de cerveza en la pared..."</em> Escribe un programa
+      el cual imprima las letras de ese clásico:
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      &bull; Write a Deaf Grandma program.  Whatever you say
-      to grandma (whatever you type in), she should respond with
-      #{output 'HUH?!  SPEAK UP, SONNY!'}, unless you shout it (type in
-      all capitals).  If you shout, she can hear you (or at least
-      she thinks so) and yells back, #{output 'NO, NOT SINCE 1938!'}  To
-      make your program <em>really</em> believable, have grandma
-      shout a different year each time; maybe any year at random
-      between 1930 and 1950.  (This part is optional, and would be
-      much easier if you read the section on Ruby's random number
-      generator at the end of the #{makeLink 'methods', :generateMethods}
-      chapter.)  You can't stop talking to grandma
-      until you shout #{input 'BYE'}.<br />
-      <em><strong>Hint:</strong>  Don't forget about
-      </em>#{code 'chomp'}<em>!  </em>#{code "'BYE'"}<em>with an
-      Enter is not the same as </em>#{code "'BYE'"}<em> without
-      one!</em><br />
-      <em><strong>Hint 2:</strong>  Try to think about what parts
-      of your program should happen over and over again.  All
-      of those should be in your </em>#{code 'while'}<em> loop.</em>
+      &bull; Escribe un programa para la abuela sorda. Lo que sea que tu digas a tu abuela (cualquier cosa que escribas), ella
+      debera responder con #{output 'EHH?!  HABLA MAS FUERTE, SONNY!'}, a menos que tu grites(escribas en 
+      mayúsculas). Si gritas, ella podrá oirte(o al menos que ella piense que puede) y te grite,
+      , #{output 'NO, NO DESDE 1938!'} Para hacer tu programa <em>realmente</em> creíble, la abuela tiene
+      que gritar un año diferente cada vez, quizás un año aleatorio entre 1930 y 1950. (Esa parte es opcional,
+      y sera mucho mas fácil si lees la sección Ruby de generación de números aleatorios al final del
+      capítulo #{makeLink 'methods', :generateMethods}.) No puedes dejar de hablar con tu abuela hasta que 
+      grites #{input 'ADIOS'}.<br /> <em><strong>Consejo:</strong> No olvides que </em>#{code 'chomp'}<em>!  
+      </em>#{code "'ADIOS'"}<em> con un Enter no es lo mismo que </em>#{code "'ADIOS'"}<em> sin ENTER!</em><br />
+      <em><strong>Sugerencia 2:</strong> Trata de pensar que partes de tu programa se repetiran varias veces.
+      Todo esto debería estar en el </em>#{code 'while'}<em> loop.</em>
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

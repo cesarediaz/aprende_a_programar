@@ -2107,19 +2107,15 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Well, it works... but it isn't a very pretty program.  Why not?
-      Well, the best
-      rule I ever learned in programming was the <dfn>DRY</dfn> rule:
-      <dfn>Don't Repeat Yourself</dfn>.  I could probably write a small
-      book just on why that is such a good rule.  In our case, we
-      repeated the line #{code "puts 'What a lovely name!'"}.  Why is
-      this such a big deal?  Well, what if I made a spelling mistake
-      when I rewrote it?  What if I wanted to change it from
-      #{code "'lovely'"} to #{code "'beautiful'"} on both lines?
-      I'm lazy, remember?  Basically, if
-      I want the program to do the same thing when it gets
-      #{code "'Chris'"} or #{code "'Katy'"}, then it should really
-      <em>do the same thing</em>:
+      Bueno, esto funciona... pero no es un programa muy lindo. Porque no?
+      Bueno, la mejor regla que he aprendido en programación es la regla <dfn>DRY</dfn>:
+      <dfn>Don't Repeat Yourself(No te repitas)</dfn>. Yo podría haber escrito probablemente 
+      un pequeño libro sobre esto solo para decir porque es esta una buena regla. En nuestro caso, nosotros
+      hemos repetido la linea #{code "puts 'What a lovely name!'"}. Porque es esto importante? Bueno, que 
+      pasa si tuve un error de tipeo cuando reescribí esto? Que pasaría si quisiera cambiar #{code "'lovely'"}
+      por #{code "'beautiful'"} en ambas lineas? Soy perezoso, recuerdas? Básicamente, si quiero que el 
+      programa haga la misma cosa cuando a este se le pasa #{code "'Chris'"} o #{code "'Katy'"}, entonces
+      este debería realmente <em>hacer la misma cosa</em>:
       END_PARAGRAPH
     end
     prog ['Katy'] do <<-END_CODE
@@ -2132,10 +2128,10 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Much better.  In order to make it work, I used #{code 'or'}.
-      The other <em>logical operators</em> are #{code 'and'} and 
-      #{code 'not'}.  It is always a good idea to use parentheses
-      when working with these.  Let's see how they work:
+      Mucho mejor. En orden de hacer este trabajo, utilice #{code 'or'}.
+      Otros <em>operadores logicos</em> son #{code 'and'} y #{code 'not'}.
+      Esto es siempre una buena idea de usar parentesis cuando trabajo con estos.
+      Vamos a ver como trabajan:
       END_PARAGRAPH
     end
     prog do <<-END_CODE

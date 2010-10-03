@@ -2047,12 +2047,11 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      When you tell your computer to keep repeating something,
-      you also need to tell it when to stop.  Computers never get bored,
-      so if you don't tell it to stop, it won't.  We make sure this
-      doesn't happen by telling the computer to repeat certain parts
-      of a program #{code 'while'} a certain condition is true.  This
-      works very similarly to how #{code 'if'} works:
+      Cuando le indicas a la computadora que repita algo, 
+      también necesitas indicarle cuando debe parar. Las computadoras nunca se aburren, entonces
+      si no le dices que pare, no lo hara. Nos aseguramos que esto no suceda diciendole 
+      que repita algunas partes de el programa  #{code 'while'}(mientras) que cierta condición 
+      sea verdadera. Esto trabaja similar como el #{code 'if'} lo hace:
       END_PARAGRAPH
     end
     prog ['Hello?', 'Hi!', 'Very nice to meet you.', 'Oh... how sweet!', 'bye'] do <<-END_CODE

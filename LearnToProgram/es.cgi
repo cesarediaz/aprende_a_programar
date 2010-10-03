@@ -2036,8 +2036,8 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      These tips will help you write programs with branching,
-      but they also help with the other main type of flow control:
+      Estos consejos te ayudaran a escribir programas con ramificación,
+      pero esto también ayuda con otros tipos de controles de flujo:
       END_PARAGRAPH
     end
     h2 {'Looping'}

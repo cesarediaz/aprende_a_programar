@@ -1139,7 +1139,7 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Now let's try some more interesting (and a few just weird) conversions:
+      Ahora vamos a tratar algunas conversiones más interesantes(y un poco raras):
       END_PARAGRAPH
     end
     prog do <<-END_CODE
@@ -1156,10 +1156,11 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      So, this probably gave some surprises.  The first one is pretty
-      standard, giving #{output '15.0'}.
-      After that, we converted the string #{code "'99.999'"} to a float and
-      to an integer.  The float did what we expected; the integer was, as always, rounded down.
+      Entonces, esto probablemente les dió algunas sorpresas. La primera 
+      es bastante estandar, dando #{output '15.0'}.
+      Después de esto, convertimos el string #{code "'99.999'"} a flotante y
+      a entero. El punto flotante nos devolvió lo que esperabamos; el entero
+      , fue como siempre, redondeado hacia abajo.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

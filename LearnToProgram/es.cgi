@@ -1189,13 +1189,13 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Why do these three all print the same thing?  Well, the last two
-      should, since #{code '20.to_s'} <em>is</em> #{code "'20'"}.  But what
-      about the first one, the integer #{code '20'}?  For that matter, what
-      does it even mean to write out <em>the integer</em> 20?  When
-      you write a <em>2</em> and then a <em>0</em> on a piece of paper, you
-      are writing down a string, not an integer.  <em>The integer</em> 20 is the number of
-      fingers and toes I have; it isn't a <em>2</em> followed by a <em>0</em>.
+      Porque estas tres lineas imprimen lo mismo? Bueno, las últimas dos 
+      deberían hacerlo, dado que #{code '20.to_s'} <em>es</em> #{code "'20'"}.
+      Pero que hay de la primer linea, el entero #{code '20'}? Para este, 
+      que significa escribir <em>el entero</em> 20? Cuando escribes un
+      <em>2</em> y luego un <em>0</em> en un papel, estas escribiendo un
+      string, no un entero. <em>El entero</em> 20 es el número de dedos
+      que tengo, no es un <em>2</em> seguido por un <em>0</em>.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

@@ -1164,11 +1164,11 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Next, we had some examples of some... <em>unusual</em> strings being converted
-      into numbers.  #{code 'to_i'} ignores the first thing it doesn't understand,
-      and the rest of the string from that point on.  So the first one
-      was converted to #{code '5'}, but the others, since they started with
-      letters, were ignored completely... so the computer just picks zero.
+      Siguiendo, tuvimos algunos ejemplos de algunos... <em>inusuales</em> 
+      strings siendo convertidos a números. #{code 'to_i'} ignora lo primero 
+      que no entienda, y el resto del string a partir de allí. Entonces la primer
+      conversión fue a #{code '5'}, pero los otros, que comenzaron con letras
+      fueron completamente ignorados... entonces la computadora solo obtiene 0.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

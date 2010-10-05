@@ -1131,11 +1131,11 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Notice that, even after we got the string version of
-      #{code 'var1'} by calling #{code 'to_s'}, #{code 'var1'} was always pointing
-      at #{code '2'}, and never at #{code "'2'"}.  Unless we explicitly reassign
-      #{code 'var1'} (which requires an #{code '='} sign), it will point
-      at #{code '2'} for the life of the program.
+      Ten cuenta que, aún despues que obtuvimos la versión string de
+      #{code 'var1'} llamando #{code 'to_s'}, #{code 'var1'} siempre apunto
+      a #{code '2'}, y nunca a #{code "'2'"}. A menos que explícitamente reasignemos
+      #{code 'var1'} (que requiere un signo #{code '='}), este apuntara a #{code '2'}
+      mientras dure el programa.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

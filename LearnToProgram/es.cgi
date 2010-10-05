@@ -1172,13 +1172,14 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Finally, we saw that our last two conversions did nothing at all,
-      just as we would expect.
+      Finalmente, vimos que nuestras últimas dos conversiónes no hicieron nada,
+      justo como lo esperabamos.
       END_PARAGRAPH
     end
-    h2 {'Another Look at '+(code 'puts')}
+
+    h2 {'Otra mirada a '+(code 'puts')}
     para do <<-END_PARAGRAPH
-      There's something strange about our favorite method...  Take a look at this:
+      Hay algo extraño sobre nuestro método favorito... mira un poco lo siguiente:
       END_PARAGRAPH
     end
     prog do <<-END_CODE

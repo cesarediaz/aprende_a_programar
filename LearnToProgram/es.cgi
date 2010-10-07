@@ -4443,15 +4443,13 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      There are a number of places you can get it (including
-      the Pragmatic Programmers' own site), but my favorite place
-      is at <a href="http://www.ruby-doc.org/docs/ProgrammingRuby/">ruby-doc.org</a>.
-      That version has a nice table of contents on the side,
-      as well as an index.  (ruby-doc.org has lots of other
-      great documentation as well, such as for the Core API and
-      Standard Library... basically, it documents everything Ruby
-      comes with right out of the box.
-      <a href="http://www.ruby-doc.org/">Check it out.</a>)
+      Hay algunos lugares donde puedes conseguirlo(incluyendo
+      el sitio mismo  Pragmatic Programmers), pero mi lugar favorito es
+      en <a href="http://www.ruby-doc.org/docs/ProgrammingRuby/">ruby-doc.org</a>.
+      Esta versión tiene una linda tabla de contenidos a un costado, como también
+      un índice. (ruby-doc.org tiene un montón más de grandiosos contenidos también,
+      como para el Core API y biblioteca estandar(Standard Library)... basicamente,
+      este documenta todo Ruby. <a href="http://www.ruby-doc.org/">Chequealo aquí.</a>)
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

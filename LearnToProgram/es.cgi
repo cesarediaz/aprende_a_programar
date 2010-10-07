@@ -4435,12 +4435,11 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      You can find just about everything about Ruby, from the basic
-      to the advanced, in this book.  It's easy to read; it's comprehensive;
-      it's just about perfect.  I wish every language had a book of
-      this quality.  At the back of the book, you'll find a huge section
-      detailing every method in every class, explaining it and giving
-      examples.  I just love this book!
+      Puedes encontrar todo lo que necesites de Ruby, desde lo básico a lo
+      avanzado, en este libro. Es fácil de leer; fácil de entender; es perfecto.
+      Desearía que cada lenguage tuviera un libro de esta calidad. Al reverso
+      del libro, encontrarás una gran sección detallando cada método en cada
+      clase, explicandolo y dando ejemplos. Me encanta este libro!
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

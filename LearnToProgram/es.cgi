@@ -1253,14 +1253,12 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Hmmm... it looks like when I typed in the letters <kbd>C</kbd>,
-      <kbd>h</kbd>, <kbd>r</kbd>, <kbd>i</kbd>,
-      <kbd>s</kbd>, and then pressed <kbd>Enter</kbd>, #{code 'gets'}
-      got all of the letters in my name <em>and</em> the
-      <kbd>Enter</kbd>!  Fortunately, there's a method just for
-      this sort of thing:  #{code 'chomp'}.  It takes off any <kbd>Enter</kbd>s
-      hanging out at the end of your string.  Let's try that program again,
-      but with #{code 'chomp'} to help us this time:
+      Hmmm... esto parece como cuando escribi las letras <kbd>C</kbd>,
+      <kbd>h</kbd>, <kbd>r</kbd>, <kbd>i</kbd>,<kbd>s</kbd>, y presioné <kbd>Enter</kbd>,
+      , #{code 'gets'} toma todas las letras en mi nombre <em>y</em> el <kbd>Enter</kbd>!
+      Afortunadamente, hay un método justo para este tipo de cosas: #{code 'chomp'}.  Este
+      quita cualquier  <kbd>Enter</kbd> que exista al final del string. Vamos a probar este
+      un programa otra vez, pero con  #{code 'chomp'} uqe nos ayuda esta vez:
       END_PARAGRAPH
     end
     prog ['Chris'] do <<-END_CODE

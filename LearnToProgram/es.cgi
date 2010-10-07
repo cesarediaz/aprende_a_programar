@@ -1199,20 +1199,18 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Well, here's the big secret behind our friend, #{code 'puts'}:  Before
-      #{code 'puts'} tries to write out an object, it uses #{code 'to_s'} to
-      get the string version of that object.  In fact, the <em>s</em> in
-      #{code 'puts'} stands for <em>string</em>; #{code 'puts'} really means
-      <dfn>put string</dfn>.
+      Bueno, aquí esta el gran secreto detrás de nuestro amigo, #{code 'puts'}: Antes
+      de que #{code 'puts'} trate de escribir un objeto, este utiliza #{code 'to_s'} para
+      toma la versión string del objeto. De hecho, la <em>s</em> en #{code 'puts'} 
+      esta por <em>string</em>; #{code 'puts'} realmente quiere decir <dfn>put string</dfn>.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      This may not seem too exciting now, but there are many,
-      <em>many</em> kinds of objects in Ruby (you'll even learn how
-      to make your own!), and it's nice to know what will happen if
-      you try to #{code 'puts'} a really weird object,
-      like a picture of your grandmother, or a music file or something.
-      But that will come later...
+      Esto puede no parecer muy interesante ahora, pero hay muchos, 
+      <em>muchos</em> tipos de objetos en Ruby(que luego aprenderas a crear tus propios objetos!),
+      y es lindo saber que pasar si tratas de utilizar #{code 'puts'} en un objeto extraño,
+      como una foto de tu abuela, o un archivo de sonido o algo. 
+      Pero esto sera luego... 
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

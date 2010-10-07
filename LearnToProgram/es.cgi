@@ -1236,13 +1236,13 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Of course, whatever you type in will just get repeated back
-      to you.  Run it a few times and try typing in different things.
+      Porsupuesto, cualquier cosa que tu tipees te lo devolvera. Ejecuta este programa
+      algunas veces y trata tipeando diferentes cosas.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Now we can make interactive programs!  In this one, type in
-      your name and it will greet you:
+      Ahora podemos hacer programas interactivos! En este, tipea tu nombre y te devolvera 
+      un bienvenida
       END_PARAGRAPH
     end
     prog ['Chris'], '<em>Eek!</em>  I just ran it&mdash;I typed in my name, and this is what happened:' do <<-END_CODE

@@ -1269,16 +1269,16 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      Much better!  Notice that since #{code 'name'} is pointing to
-      #{code 'gets.chomp'}, we don't ever have to say
-      #{code 'name.chomp'};  #{code 'name'} was already
-      #{code 'chomp'}ed.
+      Mucho mejor! Te das cuenta que desde que  #{code 'name'} esta apuntando a 
+      #{code 'gets.chomp'}, no tenemos que decir #{code 'name.chomp'};  #{code 'name'}
+      ya había sido tratado con #{code 'chomp'}.
       END_PARAGRAPH
     end
-    h2 {'A Few Things to Try'}
+    h2 {'Algunas cosas para probar'}
     para do <<-END_PARAGRAPH
-      &bull; Write a program which asks for a person's first name, then middle,
-      then last.  Finally, it should greet the person using their full name.
+      &bull; Escribe un programa que pregunta a la persona por su primer nombre, luego
+      segundos nombres y apellido. Finalmente, este debera dar la bienvenida a la 
+      persona usando el nombre completo.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

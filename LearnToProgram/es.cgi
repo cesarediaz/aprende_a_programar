@@ -4393,19 +4393,18 @@ class LearnToProgramTutorial
   
   def generateBeyond
     para do <<-END_PARAGRAPH
-      So where do we go now?  If you have a question, who can you
-      ask?  What if you want your program to open a webpage, send
-      an email, or resize a digital picture?  Well, there are many,
-      many places to find Ruby help.  Unfortunately,
-      that's sort of unhelpful, isn't it?  :-)
+      Entonces que haremos ahora? Si tienes una pregunta, a quien consultarías?
+      Que pasa si quieres un programa que abra una página web, envíe un email,
+      o redefina el tamaño de una foto digital? Bueno, hay muchos, muchos lugares 
+      donde encontrar ayuda Ruby. Desafortunadamente, esto es de poca ayuda, no? :-)
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      For me, there are really only three places I look for Ruby help.
-      If it's a small question, and I think I can experiment on my own
-      to find the answer, I use <dfn>irb</dfn>.  If it's a bigger question,
-      I look it up in my <dfn>pickaxe</dfn>.  And if I just can't figure
-      it out on my own, then I ask for help on <dfn>ruby-talk</dfn>.
+      Para mí, hay realmente solo tres lugares donde busco por ayuda sobre Ruby.
+      Si es una pequeña pregunta, y pienso que puedo experimentar yo mismo para 
+      encontrar la respuesta, utilizo <dfn>irb</dfn>. Si es una gran pregunta,
+      busco por esto dentro de mis <dfn>herramientas</dfn>. Y si no puedo darme
+      cuenta por mi mismo, entonces pregunto por ayuda en <dfn>ruby-talk</dfn>.
       END_PARAGRAPH
     end
     h2 {'IRB:  Interactive Ruby'}

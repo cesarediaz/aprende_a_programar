@@ -4453,20 +4453,18 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      And why is it called "the pickaxe"?  Well, there's a picture
-      of a pickaxe on the cover of the book.  It's a silly name, I
-      guess, but it stuck.
+      Y porque es llamado "el pico"? Bueno, hay una imágen de un pico en la tapa del 
+      libro. Es un nombre tonto, creo yo, pero quedo así.
       END_PARAGRAPH
     end
-    h2 {'Ruby-Talk:  the Ruby Mailing List'}
+    h2 {'Ruby-Talk:  la lista de mails Ruby'}
     para do <<-END_PARAGRAPH
-      Even with irb and the pickaxe, sometimes you still can't figure
-      it out.  Or perhaps you want to know if someone already did
-      whatever it is you are working on, to see if you could use it
-      instead.  In these cases, the place to go is ruby-talk, the Ruby
-      Mailing List.  It's full of friendly, smart, helpful people.
-      To learn more about it, or to subscribe, look
-      <a href="http://www.ruby-lang.org/en/20020104.html">here</a>.
+      Aun teniendo irb y el pico, algunas veces sigues sin resolver
+      algo que necesitas. O quizás quieres saber si alguien ya hizo algo de lo
+      tu estas intentando, para saber si puedes usar eso en cambio. En estos casos
+      , el lugar para esto es ruby-talk, la lista de mails Ruby. Esta llendo de gente
+      amigable, inteligente y con ganas de ayudar. Para aprender mas de esto, o suscribirte
+      , mira <a href="http://www.ruby-lang.org/en/20020104.html">aquí</a>.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

@@ -4418,22 +4418,20 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      There's a lot more to irb than this, but you can learn all about
-      it in the pickaxe.
+      Hay un montón de cosas ademas para irb, pero puedes aprender mucho más
+      probando esto.
       END_PARAGRAPH
     end
     h2 {'The Pickaxe:  "Programming Ruby"'}
     para do <<-END_PARAGRAPH
-      Absolutely <em>the</em> Ruby book to get is "Programming Ruby,
+      Absolutamente <em>el</em> libro Ruby a tener es "Programming Ruby,
       The Pragmatic Programmer's Guide", by David Thomas and Andrew
-      Hunt (the Pragmatic Programmers).  While I highly recommend
-      picking up the
-      <a href="http://www.pragmaticprogrammer.com/titles/ruby/">2nd edition</a>
-      of this excellent book, with all of
-      the latest Ruby covered, you can also get a slightly older
-      (but still mostly relevant) version for free online.
-      (Actually, if you installed the
-      Windows version of Ruby, you already have it.)
+      Hunt (the Pragmatic Programmers). Mientras que recomiendo tomar la 
+      <a href="http://www.pragmaticprogrammer.com/titles/ruby/">segunda edición</a>
+      de este excelente libro, con todo lo último cubierto,
+      también puedes obtener una versión un poquito más
+      antigua (pero interesante también) gratis que esta online. (En realidad,
+      si instalaste la versión Windos de Ruby, ya lo tienes.)
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

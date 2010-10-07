@@ -4407,15 +4407,14 @@ class LearnToProgramTutorial
       cuenta por mi mismo, entonces pregunto por ayuda en <dfn>ruby-talk</dfn>.
       END_PARAGRAPH
     end
-    h2 {'IRB:  Interactive Ruby'}
+    h2 {'IRB:  Ruby Interactivo'}
     para do <<-END_PARAGRAPH
-      If you installed Ruby, then you installed irb.  To use it, just
-      go to your command prompt and type #{input 'irb'}.  When you are
-      in irb, you can type in any ruby expression you want, and it will tell you
-      the value of it.  Type in #{input '1 + 2'}, and it will tell you
-      #{output '3'}.  (Note that you don't have to use #{code 'puts'}.)
-      It's kind of like a giant Ruby calculator.  When you are done,
-      just type in #{input 'exit'}.
+      Si instalaste Ruby, entonces tienes instalado irb. Para usarlo, solo
+      ve a consola y tipea #{input 'irb'}.  Cuando estes en irb, puedes tipear cualquier
+      expresion ruby que quieras, y este te dira el valor de esto. Tipea #{input '1 + 2'},
+      y este te devolverá #{output '3'}. (Puedes darte cuenta que no tienes que utilizar
+      #{code 'puts'}.) Esto es como una calculadora Ruby gigante. Cuando finalizes, solo
+      debes tipear #{input 'exit'}.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

@@ -1282,15 +1282,14 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      &bull; Write a program which asks for a person's favorite number.
-      Have your program add one to the number, then suggest the result
-      as a <em>bigger and better</em> favorite number.
-      (Do be tactful about it, though.)
+      &bull; Escribe un programa que pregunta a la persona por su número favorito. Tu
+      programa tiene que sumar uno al número, luego sugerir el resultado como
+      <em>mayor y mejor</em> número favorito.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Once you have finished those two programs (and any others you would like to try),
-      let's learn some more (and some more about) #{makeLink('methods', :generateMethods)}.
+      Una vez que hayas finalizado estos dos programas(y cualquier otro que quieras intentar)
+      vamos a aprender un poco más(y más acerca de) #{makeLink('methods', :generateMethods)}.	
       END_PARAGRAPH
     end
   end

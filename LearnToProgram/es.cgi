@@ -1214,26 +1214,24 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      In the meantime, we have a few more methods for you, and they
-      allow us to write all sorts of fun programs...
+      Mientras tanto, tenemos algunos métodos más para ti, y estos
+      te permiten crear toda tipo de interesantes programas...
       END_PARAGRAPH
     end
-    h2 {'The Methods '+(code 'gets')+' and '+(code 'chomp')}
+    h2 {'Los métodos '+(code 'gets')+' y '+(code 'chomp')}
     para do <<-END_PARAGRAPH
-      If #{code 'puts'} means <dfn>put string</dfn>, I'm sure you can guess
-      what #{code 'gets'} stands for.  And just as #{code 'puts'} always
-      spits out strings, #{code 'gets'} will only retrieve strings.  And
-      whence does it get them?
+      Si #{code 'puts'} significa <dfn>put string</dfn>, estoy seguro que puedes suponer
+      que  #{code 'gets'} hace. Y así como siempre #{code 'puts'}  escupe strings, #{code 'gets'} 
+      solo recive strings. Y donde los consigo?
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      From you!  Well, from your keyboard, anyway.  Since your keyboard only
-      makes strings, that works out beautifully.  What actually happens
-      is that #{code 'gets'} just sits there, reading what you type until
-      you press <kbd>Enter</kbd>.  Let's try it out:
+      Depende de ti!, Bueno, de tu teclado, como sea. Desde que el teclado crea strings,
+      esto trabaja perfectamente. Lo que sucede en realidad es que #{code 'gets'} esta ahí, leyendo
+      lo que tu tipeas hasta que oprimes  <kbd>Enter</kbd>. Vamos a tratar de probar esto:
       END_PARAGRAPH
     end
-    prog ['Is there an echo in here?'] do <<-END_CODE
+    prog ['Hay un eco aquí?'] do <<-END_CODE
       puts gets
       END_CODE
     end

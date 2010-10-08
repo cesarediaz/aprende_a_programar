@@ -4468,21 +4468,20 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      <strong>WARNING:</strong>  There's a <em>lot</em> of mail on the
-      mailing list every day.  I have mine automatically sent to a
-      different mail folder so that it doesn't get in my way.  If you
-      just don't want to deal with all that mail, though, you don't
-      have to!  The ruby-talk mailing list is mirrored to the newsgroup
-      comp.lang.ruby, and vice versa, so you can see the same messages
-      there.  Either way, you see the same messages, just in a slightly
-      different format.
+      <strong>ADVERTENCIA:</strong> Hay <em>muchos</em> emails en 
+      esta lista de correos cada día. Tuve que enviar directamente estos
+      a diferentes carpetas de mail para que no me molesten. Si no quieres
+      ocuparte de todos esos emails, pienso, no debes inscribirte. La lista
+      de mails es espejada en el grupo de noticias comp.lang.ruby, y viceversa,
+      entonces puedes ver los mensajes ahí. De igual manera, ves los mismos 
+      mensajes, pero en un formato diferente.
       END_PARAGRAPH
     end
     h2 {'Tim Toady'}
     para do <<-END_PARAGRAPH
-      Something I have tried to shield you from, but which you will
-      surely run in to soon, is the concept of TMTOWTDI (pronounced
-      "Tim Toady"):  There's More Than One Way To Do It.
+      Algo que traté de mostrarte, lo cual seguramente podras probar pronto
+      , es el concepto de TMTOWTDI (pronunciado como "Tim Toady"): Hay más de
+      una forma para hacer esto.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

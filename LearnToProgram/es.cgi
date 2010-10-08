@@ -4485,11 +4485,11 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Now some will tell you what a wonderful thing TMTOWTDI is, while
-      others feel quite differently.  I don't really have strong feelings
-      about it in general, but I think it's a <em>terrible</em> way to
-      teach someone how to program.  (As if learning one way to do something
-      wasn't challenging and confusing enough!)
+      Ahora te voy a decir porque es tan maravilloso TMTOWTDI, mientras 
+      otros se sienten diferente con respecto a esto. Realmente no tengo 
+      fuertes sentimientos acerca de esto en general, pero pienzo que es 
+      una forma <em>terrible</em> de enseñar a alguién de como programar. 
+      (Como si aprender a programar de una forma no fuera suficiente desafio y confuso!)
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH

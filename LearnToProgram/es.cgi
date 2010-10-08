@@ -4500,30 +4500,30 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      And when we talked about branching, I showed you #{code 'if'},
-      but I didn't show you #{code 'unless'}.  I'll let you figure
-      that one out in irb.
+      Cuando hablamos de ramificación, mostré el #{code 'if'},
+      pero no mostre el #{code 'unless'}. Voy a dejar que te des 
+      cuenta por ti mismo en irb de que se trata.
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      Another nice little shortcut you can use with #{code 'if'},
-      #{code 'unless'}, and #{code 'while'}, is the cute one-line version:
+      Otro lindo atajo que puedes usar con #{code 'if'},
+      #{code 'unless'}, y #{code 'while'}, es esta linda versión de una linea:
       END_PARAGRAPH
     end
     prog do <<-END_CODE
-      #  These words are from a program I wrote to generate
-      #  English-like babble.  Cool, huh?
+      #  Estas lineas son de un programa que escribi para generar 
+      #  English
       puts 'grobably combergearl kitatently thememberate' if 5 == 2**2 + 1**1
       puts 'enlestrationshifter supposine follutify blace' unless 'Chris'.length == 5
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      And finally, there is another way of writing methods which take blocks
-      (not procs).  We saw the thing where we grabbed the block and turned
-      it into a proc using the #{code '&block'} trick in your parameter list
-      when you define the function.  Then, to call the block, you just use
-      #{code 'block.call'}.  Well, there's a shorter way (though I personally
-      find it more confusing).  Instead of this:
+      Y finalmente, hay otro camino para escribir métodos el que toma bloques
+      (no procs). Vimos la parte donde tomabamos el bloque y lo convertíamos 
+      dentro de un proc usando el truco #{code '&block'} en la lista de parametros
+      cuando defines una función. Entonces, para llamar el bloque, solo usas 
+      #{code 'block.call'}.  Bueno, hay una manera más corta(personalmente pienso que 
+      es más confuso). Antes que esto:
       END_PARAGRAPH
     end
     prog do <<-END_CODE
@@ -4553,19 +4553,18 @@ class LearnToProgramTutorial
       END_CODE
     end
     para do <<-END_PARAGRAPH
-      I don't know... what do you think?  Maybe it's just me, but...
-      #{code 'yield'}?!  If it was something like #{code 'call_the_hidden_block'}
-      or something, that would make a <em>lot</em> more sense to me.
-      A lot of people say #{code 'yield'} makes sense to them.  But
-      I guess that's what TMTOWTDI is all about:  they do it their way,
-      and I'll do it my way.
+      No se... que pienzas? Quizás solo sea yo, pero... #{code 'yield'}?! 
+      Si esto fue algo como  #{code 'call_the_hidden_block'} o otra cosa más,
+      esto tendría mucho más sentido para mi. Mucha gente dice que #{code 'yield'} 
+      tiene sentido para ellos. Pero, supongo que es algo como TMTOWTDI(Hay más de
+      una forma para hacer esto.), y eso es todo : ellos hacen las cosas a su manera, 
+      y yo lo hare a mi manera.
       END_PARAGRAPH
     end
-    h2 {'THE END'}
-    para do <<-END_PARAGRAPH
-      Use it for good and not evil.  :-)  And if you found this tutorial
-      useful (or confusing, or if you found an error),
-      <a href="mailto:chris@pine.fm">let me know</a>!
+    h2 {'Fin'}
+    para do <<-END_PARAGRAPHi
+      Use esto para el bien y no lo malo. :-)  Y si encuentras este tutorial
+      útil (o confuso, o si encuentras un error),
       END_PARAGRAPH
     end
 

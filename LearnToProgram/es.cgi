@@ -4493,11 +4493,10 @@ class LearnToProgramTutorial
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
-      However, now that you are moving beyond this tutorial, you'll
-      be seeing much more diverse code.  For example, I can think of
-      at least five other ways to make a string (aside from surrounding
-      some text in single quotes), and each one works slightly differently.
-      I only showed you the simplest of the six.
+      Sin embargo, ahora que estan moviendose más alla de este tutorial, veras mucha
+      más diversidad de código. Por ejemplo, pienso que al menos hay otras cinco formas
+      de hacer un string(aparte de las que encierran un texto en comillas), y cada uno de estos
+      trabaja un poco diferente. Solo mostre lo simple. 
       END_PARAGRAPH
     end
     para do <<-END_PARAGRAPH
